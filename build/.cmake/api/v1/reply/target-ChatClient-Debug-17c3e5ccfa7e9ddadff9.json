@@ -74,6 +74,12 @@
 				"file" : 1,
 				"line" : 17,
 				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 18,
+				"parent" : 3
 			}
 		]
 	},
@@ -84,9 +90,6 @@
 			[
 				{
 					"fragment" : "-g -g"
-				},
-				{
-					"fragment" : "-std=gnu++11"
 				}
 			],
 			"includes" : 
@@ -113,18 +116,14 @@
 				},
 				{
 					"backtrace" : 9,
+					"path" : "/home/djf/sourcecode/MyChatServer/include/server/mymuduo"
+				},
+				{
+					"backtrace" : 10,
 					"path" : "/home/djf/sourcecode/MyChatServer/thirdparty"
 				}
 			],
 			"language" : "CXX",
-			"languageStandard" : 
-			{
-				"backtraces" : 
-				[
-					1
-				],
-				"standard" : "11"
-			},
 			"sourceIndexes" : 
 			[
 				0

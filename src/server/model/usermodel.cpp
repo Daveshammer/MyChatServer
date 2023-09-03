@@ -116,7 +116,5 @@ void UserModel::resetState()
     //     }
     // }
     shared_ptr<MysqlConn> conn = ConnectionPool::getConnectionPool()->getConnection();
-    if (conn->update(sql))
-    {
-    }
+    conn->update(sql);
 }

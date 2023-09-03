@@ -1,4 +1,4 @@
-# 基于muduo网络库的集群聊天服务器
+# 基于Reactor模型的集群聊天服务器
 
 # 项目概述
 
@@ -47,7 +47,9 @@
 
 ### 数据库模块设计
 
-在`/include/db/MySQL.hpp`文件中，封装着对数据库的连接、查询、更新、释放连接几个操作。
+在`/include/db/db.h`文件中，封装着对数据库的连接、查询、更新、释放连接几个操作。
+
+在`/include/db/ConnectionPool.h`文件中，封装着一个数据库连接池，用来管理数据库连接，需配合`/include/db/MysqlConn.h`一起使用，原文件`/include/db/db.h`仅用于非数据库连接池的实现。
 
 其是数据库模块中设计的最底层，为上层各个表以及其操作模块提供基础的服务。其关系图如下所示：
 
@@ -138,9 +140,9 @@ json["id"]            //要注销的id
 
 ## 网络模块
 
-在这里网络模块我没有自己去`socket+epoll`这样造轮子，而是选择直接使用了muduo网络库提供的接口。
+在网络模块`src/server/mymuduo`中仿照muduo实现了一个基于Reactor模型的网络库。
 
-使用muduo网络库有很多好处：
+使用类似于muduo的网络库有很多好处：
 
 - 方便，简单
 - one loop per thread的设计模型
@@ -148,7 +150,7 @@ json["id"]            //要注销的id
 
 > **什么是one loop per thread：**
 > 这是muduo网络库采用的reactor模型，有点像Nginx的负载均衡，但是也有差别，Nginx采用的是多进程，而muduo是多线程。
-> 在muduo设计中，有一个main reactor负责接收来自客户端的连接。然后使用轮询的方式给sub reactor去分配连接，而客户端的读写事件都在这个sub reactor上进行。咋样，像不像Nginx的io进程+工作进程的组合
+> 在muduo设计中，有一个main reactor负责接收来自客户端的连接。然后使用轮询的方式给sub reactor去分配连接，而客户端的读写事件都在这个sub reactor上进行。类似于Nginx的io进程+工作进程的组合
 
 而在muduo提供了两个非常重要的注册回调接口：**连接回调**和**消息回调**
 

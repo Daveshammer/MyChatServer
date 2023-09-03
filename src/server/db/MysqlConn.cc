@@ -1,6 +1,8 @@
 #include "MysqlConn.h"
 #include <string>
-#include <muduo/base/Logging.h>
+// #include <muduo/base/Logging.h>
+#include "Logger.h"
+// #include <mymuduo/Logger.h>
 
 // 初始化数据库连接
 MysqlConn::MysqlConn()
@@ -32,11 +34,11 @@ bool MysqlConn::connect(const std::string &user, const std::string &passwd, cons
     {
         // C和C++代码默认的编码字符是ASCII，如果不设置，从MySQL上拉下来的中文显示？问号
         // mysql_query(_conn, "set names gbk");
-        LOG_INFO << "connect mysql success!";
+        LOG_INFO("connect mysql success!");
     }
     else
     {
-        LOG_INFO << "connect mysql fail!";
+        LOG_INFO("connect mysql fail!");
     }
     return ptr != nullptr;
 }
@@ -46,8 +48,9 @@ bool MysqlConn::update(const std::string &sql)
 {
     if (mysql_query(conn_, sql.c_str()))
     {
-        LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
-                 << sql << "更新失败!";
+        // LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
+        //          << sql << "更新失败!";
+        LOG_INFO("%s:%s:%d:%s 更新失败! \n", __FILE__, __FUNCTION__, __LINE__, sql.c_str());
 
         return false;
     }
@@ -61,8 +64,10 @@ bool MysqlConn::query(const std::string &sql)
     freeResult();
     if (mysql_query(conn_, sql.c_str()))
     {
-        LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
-                 << sql << "查询失败!";
+        // LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
+        //          << sql << "查询失败!";
+        LOG_INFO("%s:%s:%d:%s 查询失败! \n", __FILE__, __FUNCTION__, __LINE__, sql.c_str());
+
         return false;
     }
     // 储存结果集(这是一个二重指针)

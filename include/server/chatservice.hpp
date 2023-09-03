@@ -1,13 +1,17 @@
 #ifndef ChATSERVICE_H
 #define CHATSERVICE_H
 
-#include <muduo/net/TcpConnection.h>
+// #include <muduo/net/TcpConnection.h>
 #include <unordered_map>
 #include <functional>
 #include <mutex>
-using namespace std;
-using namespace muduo;
-using namespace muduo::net;
+// using namespace std;
+// using namespace muduo;
+// using namespace muduo::net;
+
+#include "TcpConnection.h"
+// #include <mymuduo/TcpConnection.h>
+using TcpConnectionPtr = std::shared_ptr<TcpConnection>;
 
 #include "usermodel.hpp"
 #include "offlinemessagemodel.hpp"

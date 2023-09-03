@@ -1,7 +1,6 @@
 #include "ConnectionPool.h"
 #include <fstream>
 #include <thread>
-#include <muduo/base/Logging.h>
 #include <assert.h>
 
 ConnectionPool *ConnectionPool::getConnectionPool()
@@ -57,8 +56,6 @@ bool ConnectionPool::parseJsonFile()
     maxSize_ = 20;
     maxIdleTime_ = 5000;
     timeOut_ = 1000;
-
-    LOG_INFO << "ip: " << ip_ << " user: " << user_ << " password: " << passwd_ << " dbName: " << dbName_ << " port: " << port_ << " initSize: " << initSize_ << " maxSize: " << maxSize_ << " maxIdleTime: " << maxIdleTime_ << " timeOut: " << timeOut_;
 
     return true;
 }

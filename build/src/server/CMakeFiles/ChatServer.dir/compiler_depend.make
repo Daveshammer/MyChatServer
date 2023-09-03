@@ -4,46 +4,49 @@
 src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.cpp \
   /usr/include/stdc-predef.h \
   ../include/server/chatserver.hpp \
-  /usr/include/muduo/net/TcpServer.h \
-  /usr/include/muduo/base/Atomic.h \
-  /usr/include/muduo/base/noncopyable.h \
-  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/bits/libc-header-start.h \
+  ../include/server/mymuduo/TcpServer.h \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/sys/cdefs.h \
-  /usr/include/bits/wordsize.h \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/muduo/base/Types.h \
-  /usr/include/string.h \
-  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/include/c++/8/string \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
   /usr/include/c++/8/bits/stringfwd.h \
   /usr/include/c++/8/bits/memoryfwd.h \
   /usr/include/c++/8/bits/char_traits.h \
   /usr/include/c++/8/bits/stl_algobase.h \
   /usr/include/c++/8/bits/functexcept.h \
-  /usr/include/c++/8/bits/exception_defines.h \
   /usr/include/c++/8/bits/cpp_type_traits.h \
   /usr/include/c++/8/ext/type_traits.h \
   /usr/include/c++/8/ext/numeric_traits.h \
-  /usr/include/c++/8/bits/stl_pair.h \
-  /usr/include/c++/8/bits/move.h \
-  /usr/include/c++/8/bits/concept_check.h \
-  /usr/include/c++/8/type_traits \
   /usr/include/c++/8/bits/stl_iterator_base_types.h \
   /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/8/debug/assertions.h \
@@ -54,26 +57,28 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
   /usr/include/c++/8/bits/postypes.h \
   /usr/include/c++/8/cwchar \
   /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
   /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/c++/8/bits/allocator.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
   /usr/include/c++/8/ext/new_allocator.h \
-  /usr/include/c++/8/new \
-  /usr/include/c++/8/exception \
-  /usr/include/c++/8/bits/exception.h \
-  /usr/include/c++/8/bits/exception_ptr.h \
-  /usr/include/c++/8/bits/cxxabi_init_exception.h \
-  /usr/include/c++/8/typeinfo \
-  /usr/include/c++/8/bits/hash_bytes.h \
-  /usr/include/c++/8/bits/nested_exception.h \
   /usr/include/c++/8/bits/localefwd.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
   /usr/include/c++/8/clocale \
@@ -88,10 +93,7 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
   /usr/include/bits/uintn-identity.h \
   /usr/include/c++/8/bits/ostream_insert.h \
   /usr/include/c++/8/bits/cxxabi_forced.h \
-  /usr/include/c++/8/bits/stl_function.h \
-  /usr/include/c++/8/backward/binders.h \
   /usr/include/c++/8/bits/range_access.h \
-  /usr/include/c++/8/initializer_list \
   /usr/include/c++/8/bits/basic_string.h \
   /usr/include/c++/8/ext/atomicity.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
@@ -150,23 +152,47 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/8/bits/functional_hash.h \
   /usr/include/c++/8/bits/basic_string.tcc \
-  /usr/include/assert.h \
-  /usr/include/muduo/net/TcpConnection.h \
-  /usr/include/muduo/base/StringPiece.h \
-  /usr/include/muduo/net/Callbacks.h \
-  /usr/include/muduo/base/Timestamp.h \
-  /usr/include/muduo/base/copyable.h \
-  /usr/include/boost/operators.hpp \
-  /usr/include/c++/8/cstddef \
-  /usr/include/c++/8/iterator \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
   /usr/include/c++/8/ostream \
   /usr/include/c++/8/ios \
   /usr/include/c++/8/bits/ios_base.h \
   /usr/include/c++/8/bits/locale_classes.h \
   /usr/include/c++/8/bits/locale_classes.tcc \
-  /usr/include/c++/8/system_error \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/8/stdexcept \
   /usr/include/c++/8/streambuf \
   /usr/include/c++/8/bits/streambuf.tcc \
   /usr/include/c++/8/bits/basic_ios.h \
@@ -182,63 +208,22 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
   /usr/include/c++/8/bits/ostream.tcc \
   /usr/include/c++/8/istream \
   /usr/include/c++/8/bits/istream.tcc \
-  /usr/include/c++/8/bits/stream_iterator.h \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  ../include/server/mymuduo/CurrentThread.h \
   /usr/include/unistd.h \
   /usr/include/bits/posix_opt.h \
   /usr/include/bits/environments.h \
   /usr/include/bits/confname.h \
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/getopt_core.h \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp \
-  /usr/include/c++/8/functional \
-  /usr/include/c++/8/tuple \
-  /usr/include/c++/8/utility \
-  /usr/include/c++/8/bits/stl_relops.h \
-  /usr/include/c++/8/array \
-  /usr/include/c++/8/bits/uses_allocator.h \
-  /usr/include/c++/8/bits/invoke.h \
-  /usr/include/c++/8/bits/refwrap.h \
-  /usr/include/c++/8/bits/std_function.h \
-  /usr/include/c++/8/memory \
-  /usr/include/c++/8/bits/stl_construct.h \
-  /usr/include/c++/8/bits/stl_uninitialized.h \
-  /usr/include/c++/8/bits/stl_tempbuf.h \
-  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/8/ext/concurrence.h \
-  /usr/include/c++/8/bits/unique_ptr.h \
-  /usr/include/c++/8/bits/shared_ptr.h \
-  /usr/include/c++/8/bits/shared_ptr_base.h \
-  /usr/include/c++/8/bits/allocated_ptr.h \
-  /usr/include/c++/8/ext/aligned_buffer.h \
-  /usr/include/c++/8/bits/shared_ptr_atomic.h \
-  /usr/include/c++/8/bits/atomic_base.h \
-  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/8/backward/auto_ptr.h \
-  /usr/include/muduo/net/Buffer.h \
-  /usr/include/muduo/net/Endian.h \
-  /usr/include/c++/8/algorithm \
-  /usr/include/c++/8/bits/stl_algo.h \
-  /usr/include/c++/8/bits/algorithmfwd.h \
-  /usr/include/c++/8/bits/stl_heap.h \
-  /usr/include/c++/8/bits/uniform_int_dist.h \
-  /usr/include/c++/8/limits \
-  /usr/include/c++/8/vector \
-  /usr/include/c++/8/bits/stl_vector.h \
-  /usr/include/c++/8/bits/stl_bvector.h \
-  /usr/include/c++/8/bits/vector.tcc \
-  /usr/include/muduo/net/InetAddress.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  ../include/server/mymuduo/Acceptor.h \
+  ../include/server/mymuduo/Socket.h \
+  ../include/server/mymuduo/Channel.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
   /usr/include/sys/socket.h \
   /usr/include/bits/types/struct_iovec.h \
@@ -251,149 +236,35 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
   /usr/include/asm-generic/sockios.h \
   /usr/include/bits/types/struct_osockaddr.h \
   /usr/include/bits/in.h \
-  /usr/include/boost/any.hpp \
-  /usr/include/boost/type_index.hpp \
-  /usr/include/boost/type_index/stl_type_index.hpp \
-  /usr/include/boost/type_index/type_index_facade.hpp \
-  /usr/include/c++/8/cstring \
-  /usr/include/boost/static_assert.hpp \
-  /usr/include/boost/throw_exception.hpp \
-  /usr/include/boost/exception/exception.hpp \
-  /usr/include/boost/current_function.hpp \
-  /usr/include/boost/core/demangle.hpp \
-  /usr/include/c++/8/cxxabi.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
-  /usr/include/boost/type_traits/is_const.hpp \
-  /usr/include/boost/type_traits/integral_constant.hpp \
-  /usr/include/boost/type_traits/is_reference.hpp \
-  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_volatile.hpp \
-  /usr/include/boost/type_traits/remove_cv.hpp \
-  /usr/include/boost/type_traits/remove_reference.hpp \
-  /usr/include/boost/mpl/if.hpp \
-  /usr/include/boost/mpl/aux_/value_wknd.hpp \
-  /usr/include/boost/mpl/aux_/static_cast.hpp \
-  /usr/include/boost/mpl/aux_/config/workaround.hpp \
-  /usr/include/boost/mpl/aux_/config/integral.hpp \
-  /usr/include/boost/mpl/aux_/config/msvc.hpp \
-  /usr/include/boost/mpl/aux_/config/eti.hpp \
-  /usr/include/boost/mpl/aux_/na_spec.hpp \
-  /usr/include/boost/mpl/lambda_fwd.hpp \
-  /usr/include/boost/mpl/void_fwd.hpp \
-  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
-  /usr/include/boost/mpl/aux_/config/adl.hpp \
-  /usr/include/boost/mpl/aux_/config/intel.hpp \
-  /usr/include/boost/mpl/aux_/config/gcc.hpp \
-  /usr/include/boost/mpl/aux_/na.hpp \
-  /usr/include/boost/mpl/bool.hpp \
-  /usr/include/boost/mpl/bool_fwd.hpp \
-  /usr/include/boost/mpl/integral_c_tag.hpp \
-  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
-  /usr/include/boost/mpl/aux_/na_fwd.hpp \
-  /usr/include/boost/mpl/aux_/config/ctps.hpp \
-  /usr/include/boost/mpl/aux_/config/lambda.hpp \
-  /usr/include/boost/mpl/aux_/config/ttp.hpp \
-  /usr/include/boost/mpl/int.hpp \
-  /usr/include/boost/mpl/int_fwd.hpp \
-  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
-  /usr/include/boost/mpl/aux_/config/nttp.hpp \
-  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
-  /usr/include/boost/preprocessor/cat.hpp \
-  /usr/include/boost/preprocessor/config/config.hpp \
-  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
-  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
-  /usr/include/boost/mpl/aux_/arity.hpp \
-  /usr/include/boost/mpl/aux_/config/dtp.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
-  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
-  /usr/include/boost/preprocessor/comma_if.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
-  /usr/include/boost/preprocessor/control/if.hpp \
-  /usr/include/boost/preprocessor/control/iif.hpp \
-  /usr/include/boost/preprocessor/logical/bool.hpp \
-  /usr/include/boost/preprocessor/facilities/empty.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma.hpp \
-  /usr/include/boost/preprocessor/repeat.hpp \
-  /usr/include/boost/preprocessor/repetition/repeat.hpp \
-  /usr/include/boost/preprocessor/debug/error.hpp \
-  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
-  /usr/include/boost/preprocessor/tuple/eat.hpp \
-  /usr/include/boost/preprocessor/inc.hpp \
-  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
-  /usr/include/boost/mpl/limits/arity.hpp \
-  /usr/include/boost/preprocessor/logical/and.hpp \
-  /usr/include/boost/preprocessor/logical/bitand.hpp \
-  /usr/include/boost/preprocessor/identity.hpp \
-  /usr/include/boost/preprocessor/facilities/identity.hpp \
-  /usr/include/boost/preprocessor/empty.hpp \
-  /usr/include/boost/preprocessor/arithmetic/add.hpp \
-  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
-  /usr/include/boost/preprocessor/control/while.hpp \
-  /usr/include/boost/preprocessor/list/fold_left.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
-  /usr/include/boost/preprocessor/control/expr_iif.hpp \
-  /usr/include/boost/preprocessor/list/adt.hpp \
-  /usr/include/boost/preprocessor/detail/is_binary.hpp \
-  /usr/include/boost/preprocessor/detail/check.hpp \
-  /usr/include/boost/preprocessor/logical/compl.hpp \
-  /usr/include/boost/preprocessor/list/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/reverse.hpp \
-  /usr/include/boost/preprocessor/control/detail/while.hpp \
-  /usr/include/boost/preprocessor/tuple/elem.hpp \
-  /usr/include/boost/preprocessor/facilities/expand.hpp \
-  /usr/include/boost/preprocessor/facilities/overload.hpp \
-  /usr/include/boost/preprocessor/variadic/size.hpp \
-  /usr/include/boost/preprocessor/tuple/rem.hpp \
-  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
-  /usr/include/boost/preprocessor/variadic/elem.hpp \
-  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
-  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
-  /usr/include/boost/mpl/aux_/lambda_support.hpp \
-  /usr/include/boost/mpl/or.hpp \
-  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
-  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
-  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
-  /usr/include/boost/mpl/aux_/config/compiler.hpp \
-  /usr/include/boost/preprocessor/stringize.hpp \
-  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
-  /usr/include/boost/type_traits/decay.hpp \
-  /usr/include/boost/type_traits/is_array.hpp \
-  /usr/include/boost/type_traits/is_function.hpp \
-  /usr/include/boost/type_traits/detail/config.hpp \
-  /usr/include/boost/version.hpp \
-  /usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
-  /usr/include/boost/type_traits/remove_bounds.hpp \
-  /usr/include/boost/type_traits/remove_extent.hpp \
-  /usr/include/boost/type_traits/add_pointer.hpp \
-  /usr/include/boost/type_traits/add_reference.hpp \
-  /usr/include/boost/utility/enable_if.hpp \
-  /usr/include/boost/core/enable_if.hpp \
-  /usr/include/boost/type_traits/is_same.hpp \
-  /usr/include/c++/8/map \
-  /usr/include/c++/8/bits/stl_tree.h \
-  /usr/include/c++/8/bits/stl_map.h \
-  /usr/include/c++/8/bits/stl_multimap.h \
-  /usr/include/muduo/net/EventLoop.h \
-  /usr/include/c++/8/atomic \
-  /usr/include/muduo/base/Mutex.h \
-  /usr/include/muduo/base/CurrentThread.h \
-  /usr/include/muduo/net/TimerId.h \
+  ../include/server/mymuduo/EventLoopThreadPool.h \
+  ../include/server/mymuduo/Callbacks.h \
+  ../include/server/mymuduo/TcpConnection.h \
+  ../include/server/mymuduo/Buffer.h \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/bits/unordered_map.h \
   ../thirdparty/json.hpp \
   /usr/include/c++/8/cassert \
+  /usr/include/assert.h \
   /usr/include/c++/8/ciso646 \
+  /usr/include/c++/8/cstddef \
+  /usr/include/c++/8/iterator \
+  /usr/include/c++/8/bits/stream_iterator.h \
   /usr/include/c++/8/numeric \
   /usr/include/c++/8/bits/stl_numeric.h \
   /usr/include/c++/8/forward_list \
   /usr/include/c++/8/bits/forward_list.h \
   /usr/include/c++/8/bits/forward_list.tcc \
-  /usr/include/c++/8/unordered_map \
-  /usr/include/c++/8/bits/hashtable.h \
-  /usr/include/c++/8/bits/hashtable_policy.h \
-  /usr/include/c++/8/bits/unordered_map.h \
+  /usr/include/c++/8/map \
+  /usr/include/c++/8/bits/stl_tree.h \
+  /usr/include/c++/8/bits/stl_map.h \
+  /usr/include/c++/8/bits/stl_multimap.h \
   /usr/include/c++/8/valarray \
   /usr/include/c++/8/cmath \
   /usr/include/math.h \
@@ -415,13 +286,10 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
   /usr/include/c++/8/bits/gslice_array.h \
   /usr/include/c++/8/bits/mask_array.h \
   /usr/include/c++/8/bits/indirect_array.h \
+  /usr/include/c++/8/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   ../include/server/chatservice.hpp \
-  /usr/include/c++/8/mutex \
-  /usr/include/c++/8/chrono \
-  /usr/include/c++/8/ratio \
-  /usr/include/c++/8/ctime \
-  /usr/include/c++/8/bits/parse_numbers.h \
-  /usr/include/c++/8/bits/std_mutex.h \
   ../include/server/model/usermodel.hpp \
   ../include/server/model/user.hpp \
   ../include/server/model/offlinemessagemodel.hpp \
@@ -440,30 +308,67 @@ src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o: ../src/server/chatserver.
 src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservice.cpp \
   /usr/include/stdc-predef.h \
   ../include/server/chatservice.hpp \
-  /usr/include/muduo/net/TcpConnection.h \
-  /usr/include/muduo/base/noncopyable.h \
-  /usr/include/muduo/base/StringPiece.h \
-  /usr/include/string.h \
-  /usr/include/bits/libc-header-start.h \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/sys/cdefs.h \
-  /usr/include/bits/wordsize.h \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/include/c++/8/iosfwd \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
-  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/bits/functexcept.h \
   /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
   /usr/include/c++/8/bits/postypes.h \
   /usr/include/c++/8/cwchar \
   /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
   /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
@@ -473,49 +378,21 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
-  /usr/include/muduo/base/Types.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
   /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
   /usr/include/stdint.h \
   /usr/include/bits/types.h \
   /usr/include/bits/typesizes.h \
   /usr/include/bits/stdint-intn.h \
   /usr/include/bits/stdint-uintn.h \
-  /usr/include/c++/8/string \
-  /usr/include/c++/8/bits/char_traits.h \
-  /usr/include/c++/8/bits/stl_algobase.h \
-  /usr/include/c++/8/bits/functexcept.h \
-  /usr/include/c++/8/bits/exception_defines.h \
-  /usr/include/c++/8/bits/cpp_type_traits.h \
-  /usr/include/c++/8/ext/type_traits.h \
-  /usr/include/c++/8/ext/numeric_traits.h \
-  /usr/include/c++/8/bits/stl_pair.h \
-  /usr/include/c++/8/bits/move.h \
-  /usr/include/c++/8/bits/concept_check.h \
-  /usr/include/c++/8/type_traits \
-  /usr/include/c++/8/bits/stl_iterator_base_types.h \
-  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
-  /usr/include/c++/8/debug/assertions.h \
-  /usr/include/c++/8/bits/stl_iterator.h \
-  /usr/include/c++/8/bits/ptr_traits.h \
-  /usr/include/c++/8/debug/debug.h \
-  /usr/include/c++/8/bits/predefined_ops.h \
-  /usr/include/c++/8/cstdint \
-  /usr/include/c++/8/bits/allocator.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
-  /usr/include/c++/8/ext/new_allocator.h \
-  /usr/include/c++/8/new \
-  /usr/include/c++/8/exception \
-  /usr/include/c++/8/bits/exception.h \
-  /usr/include/c++/8/bits/exception_ptr.h \
-  /usr/include/c++/8/bits/cxxabi_init_exception.h \
-  /usr/include/c++/8/typeinfo \
-  /usr/include/c++/8/bits/hash_bytes.h \
-  /usr/include/c++/8/bits/nested_exception.h \
   /usr/include/c++/8/bits/localefwd.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
   /usr/include/c++/8/clocale \
   /usr/include/locale.h \
   /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
   /usr/include/c++/8/cctype \
   /usr/include/ctype.h \
   /usr/include/endian.h \
@@ -524,10 +401,7 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/bits/uintn-identity.h \
   /usr/include/c++/8/bits/ostream_insert.h \
   /usr/include/c++/8/bits/cxxabi_forced.h \
-  /usr/include/c++/8/bits/stl_function.h \
-  /usr/include/c++/8/backward/binders.h \
   /usr/include/c++/8/bits/range_access.h \
-  /usr/include/c++/8/initializer_list \
   /usr/include/c++/8/bits/basic_string.h \
   /usr/include/c++/8/ext/atomicity.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
@@ -553,8 +427,6 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/bits/pthreadtypes-arch.h \
   /usr/include/bits/setjmp.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
-  /usr/include/c++/8/ext/alloc_traits.h \
-  /usr/include/c++/8/bits/alloc_traits.h \
   /usr/include/c++/8/ext/string_conversions.h \
   /usr/include/c++/8/cstdlib \
   /usr/include/stdlib.h \
@@ -584,23 +456,70 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/asm-generic/errno.h \
   /usr/include/asm-generic/errno-base.h \
   /usr/include/bits/types/error_t.h \
-  /usr/include/c++/8/bits/functional_hash.h \
   /usr/include/c++/8/bits/basic_string.tcc \
-  /usr/include/assert.h \
-  /usr/include/muduo/net/Callbacks.h \
-  /usr/include/muduo/base/Timestamp.h \
-  /usr/include/muduo/base/copyable.h \
-  /usr/include/boost/operators.hpp \
-  /usr/include/c++/8/cstddef \
-  /usr/include/c++/8/iterator \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/TcpConnection.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/socket.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  ../include/server/mymuduo/Callbacks.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  ../include/server/mymuduo/Buffer.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
   /usr/include/c++/8/ostream \
   /usr/include/c++/8/ios \
   /usr/include/c++/8/bits/ios_base.h \
   /usr/include/c++/8/bits/locale_classes.h \
   /usr/include/c++/8/bits/locale_classes.tcc \
-  /usr/include/c++/8/system_error \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/8/stdexcept \
   /usr/include/c++/8/streambuf \
   /usr/include/c++/8/bits/streambuf.tcc \
   /usr/include/c++/8/bits/basic_ios.h \
@@ -616,207 +535,7 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/c++/8/bits/ostream.tcc \
   /usr/include/c++/8/istream \
   /usr/include/c++/8/bits/istream.tcc \
-  /usr/include/c++/8/bits/stream_iterator.h \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
-  /usr/include/unistd.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp \
-  /usr/include/c++/8/functional \
-  /usr/include/c++/8/tuple \
-  /usr/include/c++/8/utility \
-  /usr/include/c++/8/bits/stl_relops.h \
-  /usr/include/c++/8/array \
-  /usr/include/c++/8/bits/uses_allocator.h \
-  /usr/include/c++/8/bits/invoke.h \
-  /usr/include/c++/8/bits/refwrap.h \
-  /usr/include/c++/8/bits/std_function.h \
-  /usr/include/c++/8/memory \
-  /usr/include/c++/8/bits/stl_construct.h \
-  /usr/include/c++/8/bits/stl_uninitialized.h \
-  /usr/include/c++/8/bits/stl_tempbuf.h \
-  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/8/ext/concurrence.h \
-  /usr/include/c++/8/bits/unique_ptr.h \
-  /usr/include/c++/8/bits/shared_ptr.h \
-  /usr/include/c++/8/bits/shared_ptr_base.h \
-  /usr/include/c++/8/bits/allocated_ptr.h \
-  /usr/include/c++/8/ext/aligned_buffer.h \
-  /usr/include/c++/8/bits/shared_ptr_atomic.h \
-  /usr/include/c++/8/bits/atomic_base.h \
-  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/8/backward/auto_ptr.h \
-  /usr/include/muduo/net/Buffer.h \
-  /usr/include/muduo/net/Endian.h \
-  /usr/include/c++/8/algorithm \
-  /usr/include/c++/8/bits/stl_algo.h \
-  /usr/include/c++/8/bits/algorithmfwd.h \
-  /usr/include/c++/8/bits/stl_heap.h \
-  /usr/include/c++/8/bits/uniform_int_dist.h \
-  /usr/include/c++/8/limits \
-  /usr/include/c++/8/vector \
-  /usr/include/c++/8/bits/stl_vector.h \
-  /usr/include/c++/8/bits/stl_bvector.h \
-  /usr/include/c++/8/bits/vector.tcc \
-  /usr/include/muduo/net/InetAddress.h \
-  /usr/include/netinet/in.h \
-  /usr/include/sys/socket.h \
-  /usr/include/bits/types/struct_iovec.h \
-  /usr/include/bits/socket.h \
-  /usr/include/bits/socket_type.h \
-  /usr/include/bits/sockaddr.h \
-  /usr/include/asm/socket.h \
-  /usr/include/asm-generic/socket.h \
-  /usr/include/asm/sockios.h \
-  /usr/include/asm-generic/sockios.h \
-  /usr/include/bits/types/struct_osockaddr.h \
-  /usr/include/bits/in.h \
-  /usr/include/boost/any.hpp \
-  /usr/include/boost/type_index.hpp \
-  /usr/include/boost/type_index/stl_type_index.hpp \
-  /usr/include/boost/type_index/type_index_facade.hpp \
-  /usr/include/c++/8/cstring \
-  /usr/include/boost/static_assert.hpp \
-  /usr/include/boost/throw_exception.hpp \
-  /usr/include/boost/exception/exception.hpp \
-  /usr/include/boost/current_function.hpp \
-  /usr/include/boost/core/demangle.hpp \
-  /usr/include/c++/8/cxxabi.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
-  /usr/include/boost/type_traits/is_const.hpp \
-  /usr/include/boost/type_traits/integral_constant.hpp \
-  /usr/include/boost/type_traits/is_reference.hpp \
-  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_volatile.hpp \
-  /usr/include/boost/type_traits/remove_cv.hpp \
-  /usr/include/boost/type_traits/remove_reference.hpp \
-  /usr/include/boost/mpl/if.hpp \
-  /usr/include/boost/mpl/aux_/value_wknd.hpp \
-  /usr/include/boost/mpl/aux_/static_cast.hpp \
-  /usr/include/boost/mpl/aux_/config/workaround.hpp \
-  /usr/include/boost/mpl/aux_/config/integral.hpp \
-  /usr/include/boost/mpl/aux_/config/msvc.hpp \
-  /usr/include/boost/mpl/aux_/config/eti.hpp \
-  /usr/include/boost/mpl/aux_/na_spec.hpp \
-  /usr/include/boost/mpl/lambda_fwd.hpp \
-  /usr/include/boost/mpl/void_fwd.hpp \
-  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
-  /usr/include/boost/mpl/aux_/config/adl.hpp \
-  /usr/include/boost/mpl/aux_/config/intel.hpp \
-  /usr/include/boost/mpl/aux_/config/gcc.hpp \
-  /usr/include/boost/mpl/aux_/na.hpp \
-  /usr/include/boost/mpl/bool.hpp \
-  /usr/include/boost/mpl/bool_fwd.hpp \
-  /usr/include/boost/mpl/integral_c_tag.hpp \
-  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
-  /usr/include/boost/mpl/aux_/na_fwd.hpp \
-  /usr/include/boost/mpl/aux_/config/ctps.hpp \
-  /usr/include/boost/mpl/aux_/config/lambda.hpp \
-  /usr/include/boost/mpl/aux_/config/ttp.hpp \
-  /usr/include/boost/mpl/int.hpp \
-  /usr/include/boost/mpl/int_fwd.hpp \
-  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
-  /usr/include/boost/mpl/aux_/config/nttp.hpp \
-  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
-  /usr/include/boost/preprocessor/cat.hpp \
-  /usr/include/boost/preprocessor/config/config.hpp \
-  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
-  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
-  /usr/include/boost/mpl/aux_/arity.hpp \
-  /usr/include/boost/mpl/aux_/config/dtp.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
-  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
-  /usr/include/boost/preprocessor/comma_if.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
-  /usr/include/boost/preprocessor/control/if.hpp \
-  /usr/include/boost/preprocessor/control/iif.hpp \
-  /usr/include/boost/preprocessor/logical/bool.hpp \
-  /usr/include/boost/preprocessor/facilities/empty.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma.hpp \
-  /usr/include/boost/preprocessor/repeat.hpp \
-  /usr/include/boost/preprocessor/repetition/repeat.hpp \
-  /usr/include/boost/preprocessor/debug/error.hpp \
-  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
-  /usr/include/boost/preprocessor/tuple/eat.hpp \
-  /usr/include/boost/preprocessor/inc.hpp \
-  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
-  /usr/include/boost/mpl/limits/arity.hpp \
-  /usr/include/boost/preprocessor/logical/and.hpp \
-  /usr/include/boost/preprocessor/logical/bitand.hpp \
-  /usr/include/boost/preprocessor/identity.hpp \
-  /usr/include/boost/preprocessor/facilities/identity.hpp \
-  /usr/include/boost/preprocessor/empty.hpp \
-  /usr/include/boost/preprocessor/arithmetic/add.hpp \
-  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
-  /usr/include/boost/preprocessor/control/while.hpp \
-  /usr/include/boost/preprocessor/list/fold_left.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
-  /usr/include/boost/preprocessor/control/expr_iif.hpp \
-  /usr/include/boost/preprocessor/list/adt.hpp \
-  /usr/include/boost/preprocessor/detail/is_binary.hpp \
-  /usr/include/boost/preprocessor/detail/check.hpp \
-  /usr/include/boost/preprocessor/logical/compl.hpp \
-  /usr/include/boost/preprocessor/list/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/reverse.hpp \
-  /usr/include/boost/preprocessor/control/detail/while.hpp \
-  /usr/include/boost/preprocessor/tuple/elem.hpp \
-  /usr/include/boost/preprocessor/facilities/expand.hpp \
-  /usr/include/boost/preprocessor/facilities/overload.hpp \
-  /usr/include/boost/preprocessor/variadic/size.hpp \
-  /usr/include/boost/preprocessor/tuple/rem.hpp \
-  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
-  /usr/include/boost/preprocessor/variadic/elem.hpp \
-  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
-  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
-  /usr/include/boost/mpl/aux_/lambda_support.hpp \
-  /usr/include/boost/mpl/or.hpp \
-  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
-  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
-  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
-  /usr/include/boost/mpl/aux_/config/compiler.hpp \
-  /usr/include/boost/preprocessor/stringize.hpp \
-  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
-  /usr/include/boost/type_traits/decay.hpp \
-  /usr/include/boost/type_traits/is_array.hpp \
-  /usr/include/boost/type_traits/is_function.hpp \
-  /usr/include/boost/type_traits/detail/config.hpp \
-  /usr/include/boost/version.hpp \
-  /usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
-  /usr/include/boost/type_traits/remove_bounds.hpp \
-  /usr/include/boost/type_traits/remove_extent.hpp \
-  /usr/include/boost/type_traits/add_pointer.hpp \
-  /usr/include/boost/type_traits/add_reference.hpp \
-  /usr/include/boost/utility/enable_if.hpp \
-  /usr/include/boost/core/enable_if.hpp \
-  /usr/include/boost/type_traits/is_same.hpp \
-  /usr/include/c++/8/unordered_map \
-  /usr/include/c++/8/bits/hashtable.h \
-  /usr/include/c++/8/bits/hashtable_policy.h \
-  /usr/include/c++/8/bits/unordered_map.h \
-  /usr/include/c++/8/mutex \
-  /usr/include/c++/8/chrono \
-  /usr/include/c++/8/ratio \
-  /usr/include/c++/8/ctime \
-  /usr/include/c++/8/bits/parse_numbers.h \
-  /usr/include/c++/8/bits/std_mutex.h \
+  /usr/include/c++/8/atomic \
   ../include/server/model/usermodel.hpp \
   ../include/server/model/user.hpp \
   ../include/server/model/offlinemessagemodel.hpp \
@@ -833,7 +552,11 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/c++/8/thread \
   ../thirdparty/json.hpp \
   /usr/include/c++/8/cassert \
+  /usr/include/assert.h \
   /usr/include/c++/8/ciso646 \
+  /usr/include/c++/8/cstddef \
+  /usr/include/c++/8/iterator \
+  /usr/include/c++/8/bits/stream_iterator.h \
   /usr/include/c++/8/numeric \
   /usr/include/c++/8/bits/stl_numeric.h \
   /usr/include/c++/8/forward_list \
@@ -864,9 +587,11 @@ src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o: ../src/server/chatservic
   /usr/include/c++/8/bits/gslice_array.h \
   /usr/include/c++/8/bits/mask_array.h \
   /usr/include/c++/8/bits/indirect_array.h \
+  /usr/include/c++/8/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   ../include/public.hpp \
-  /usr/include/muduo/base/Logging.h \
-  /usr/include/muduo/base/LogStream.h
+  ../include/server/mymuduo/Logger.h
 
 src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.o: ../src/server/db/ConnectionPool.cc \
   /usr/include/stdc-predef.h \
@@ -1145,34 +870,7 @@ src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.o: ../src/server/db/Co
   /usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h \
   /usr/include/c++/8/bits/fstream.tcc \
-  /usr/include/c++/8/thread \
-  /usr/include/muduo/base/Logging.h \
-  /usr/include/muduo/base/LogStream.h \
-  /usr/include/muduo/base/noncopyable.h \
-  /usr/include/muduo/base/StringPiece.h \
-  /usr/include/muduo/base/Types.h \
-  /usr/include/muduo/base/Timestamp.h \
-  /usr/include/muduo/base/copyable.h \
-  /usr/include/boost/operators.hpp \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
-  /usr/include/unistd.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp
+  /usr/include/c++/8/thread
 
 src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.o: ../src/server/db/MysqlConn.cc \
   /usr/include/stdc-predef.h \
@@ -1360,39 +1058,8 @@ src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.o: ../src/server/db/MysqlCo
   /usr/include/c++/8/limits \
   /usr/include/c++/8/ctime \
   /usr/include/c++/8/bits/parse_numbers.h \
-  /usr/include/muduo/base/Logging.h \
-  /usr/include/muduo/base/LogStream.h \
-  /usr/include/muduo/base/noncopyable.h \
-  /usr/include/muduo/base/StringPiece.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/muduo/base/Types.h \
-  /usr/include/assert.h \
-  /usr/include/muduo/base/Timestamp.h \
-  /usr/include/muduo/base/copyable.h \
-  /usr/include/boost/operators.hpp \
-  /usr/include/c++/8/cstddef \
-  /usr/include/c++/8/iterator \
-  /usr/include/c++/8/bits/stream_iterator.h \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
-  /usr/include/unistd.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp
+  ../include/server/mymuduo/Logger.h \
+  ../include/server/mymuduo/noncopyable.h
 
 src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: ../src/server/db/db.cpp \
   /usr/include/stdc-predef.h \
@@ -1551,106 +1218,55 @@ src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o: ../src/server/db/db.cpp \
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/8/bits/functional_hash.h \
   /usr/include/c++/8/bits/basic_string.tcc \
-  /usr/include/muduo/base/Logging.h \
-  /usr/include/muduo/base/LogStream.h \
-  /usr/include/muduo/base/noncopyable.h \
-  /usr/include/muduo/base/StringPiece.h \
-  /usr/include/string.h \
-  /usr/include/strings.h \
-  /usr/include/muduo/base/Types.h \
-  /usr/include/assert.h \
-  /usr/include/muduo/base/Timestamp.h \
-  /usr/include/muduo/base/copyable.h \
-  /usr/include/boost/operators.hpp \
-  /usr/include/c++/8/cstddef \
-  /usr/include/c++/8/iterator \
-  /usr/include/c++/8/ostream \
-  /usr/include/c++/8/ios \
-  /usr/include/c++/8/bits/ios_base.h \
-  /usr/include/c++/8/bits/locale_classes.h \
-  /usr/include/c++/8/bits/locale_classes.tcc \
-  /usr/include/c++/8/system_error \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/8/stdexcept \
-  /usr/include/c++/8/streambuf \
-  /usr/include/c++/8/bits/streambuf.tcc \
-  /usr/include/c++/8/bits/basic_ios.h \
-  /usr/include/c++/8/bits/locale_facets.h \
-  /usr/include/c++/8/cwctype \
-  /usr/include/wctype.h \
-  /usr/include/bits/wctype-wchar.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
-  /usr/include/c++/8/bits/streambuf_iterator.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
-  /usr/include/c++/8/bits/locale_facets.tcc \
-  /usr/include/c++/8/bits/basic_ios.tcc \
-  /usr/include/c++/8/bits/ostream.tcc \
-  /usr/include/c++/8/istream \
-  /usr/include/c++/8/bits/istream.tcc \
-  /usr/include/c++/8/bits/stream_iterator.h \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
-  /usr/include/unistd.h \
-  /usr/include/bits/posix_opt.h \
-  /usr/include/bits/environments.h \
-  /usr/include/bits/confname.h \
-  /usr/include/bits/getopt_posix.h \
-  /usr/include/bits/getopt_core.h \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp
+  ../include/server/mymuduo/Logger.h \
+  ../include/server/mymuduo/noncopyable.h
 
 src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/stdc-predef.h \
   ../include/server/chatserver.hpp \
-  /usr/include/muduo/net/TcpServer.h \
-  /usr/include/muduo/base/Atomic.h \
-  /usr/include/muduo/base/noncopyable.h \
-  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
-  /usr/include/stdint.h \
-  /usr/include/bits/libc-header-start.h \
+  ../include/server/mymuduo/TcpServer.h \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
   /usr/include/features.h \
   /usr/include/sys/cdefs.h \
-  /usr/include/bits/wordsize.h \
   /usr/include/bits/long-double.h \
   /usr/include/gnu/stubs.h \
   /usr/include/gnu/stubs-64.h \
-  /usr/include/bits/types.h \
-  /usr/include/bits/typesizes.h \
-  /usr/include/bits/wchar.h \
-  /usr/include/bits/stdint-intn.h \
-  /usr/include/bits/stdint-uintn.h \
-  /usr/include/muduo/base/Types.h \
-  /usr/include/string.h \
-  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
-  /usr/include/bits/types/locale_t.h \
-  /usr/include/bits/types/__locale_t.h \
-  /usr/include/strings.h \
-  /usr/include/c++/8/string \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
   /usr/include/c++/8/bits/stringfwd.h \
   /usr/include/c++/8/bits/memoryfwd.h \
   /usr/include/c++/8/bits/char_traits.h \
   /usr/include/c++/8/bits/stl_algobase.h \
   /usr/include/c++/8/bits/functexcept.h \
-  /usr/include/c++/8/bits/exception_defines.h \
   /usr/include/c++/8/bits/cpp_type_traits.h \
   /usr/include/c++/8/ext/type_traits.h \
   /usr/include/c++/8/ext/numeric_traits.h \
-  /usr/include/c++/8/bits/stl_pair.h \
-  /usr/include/c++/8/bits/move.h \
-  /usr/include/c++/8/bits/concept_check.h \
-  /usr/include/c++/8/type_traits \
   /usr/include/c++/8/bits/stl_iterator_base_types.h \
   /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
   /usr/include/c++/8/debug/assertions.h \
@@ -1661,26 +1277,28 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/c++/8/bits/postypes.h \
   /usr/include/c++/8/cwchar \
   /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
   /usr/include/bits/floatn.h \
   /usr/include/bits/floatn-common.h \
   /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
   /usr/include/bits/types/__mbstate_t.h \
   /usr/include/bits/types/__FILE.h \
   /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
   /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
   /usr/include/c++/8/bits/allocator.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
   /usr/include/c++/8/ext/new_allocator.h \
-  /usr/include/c++/8/new \
-  /usr/include/c++/8/exception \
-  /usr/include/c++/8/bits/exception.h \
-  /usr/include/c++/8/bits/exception_ptr.h \
-  /usr/include/c++/8/bits/cxxabi_init_exception.h \
-  /usr/include/c++/8/typeinfo \
-  /usr/include/c++/8/bits/hash_bytes.h \
-  /usr/include/c++/8/bits/nested_exception.h \
   /usr/include/c++/8/bits/localefwd.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
   /usr/include/c++/8/clocale \
@@ -1695,10 +1313,7 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/bits/uintn-identity.h \
   /usr/include/c++/8/bits/ostream_insert.h \
   /usr/include/c++/8/bits/cxxabi_forced.h \
-  /usr/include/c++/8/bits/stl_function.h \
-  /usr/include/c++/8/backward/binders.h \
   /usr/include/c++/8/bits/range_access.h \
-  /usr/include/c++/8/initializer_list \
   /usr/include/c++/8/bits/basic_string.h \
   /usr/include/c++/8/ext/atomicity.h \
   /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
@@ -1757,23 +1372,47 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/bits/types/error_t.h \
   /usr/include/c++/8/bits/functional_hash.h \
   /usr/include/c++/8/bits/basic_string.tcc \
-  /usr/include/assert.h \
-  /usr/include/muduo/net/TcpConnection.h \
-  /usr/include/muduo/base/StringPiece.h \
-  /usr/include/muduo/net/Callbacks.h \
-  /usr/include/muduo/base/Timestamp.h \
-  /usr/include/muduo/base/copyable.h \
-  /usr/include/boost/operators.hpp \
-  /usr/include/c++/8/cstddef \
-  /usr/include/c++/8/iterator \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
   /usr/include/c++/8/ostream \
   /usr/include/c++/8/ios \
   /usr/include/c++/8/bits/ios_base.h \
   /usr/include/c++/8/bits/locale_classes.h \
   /usr/include/c++/8/bits/locale_classes.tcc \
-  /usr/include/c++/8/system_error \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
-  /usr/include/c++/8/stdexcept \
   /usr/include/c++/8/streambuf \
   /usr/include/c++/8/bits/streambuf.tcc \
   /usr/include/c++/8/bits/basic_ios.h \
@@ -1789,63 +1428,22 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/c++/8/bits/ostream.tcc \
   /usr/include/c++/8/istream \
   /usr/include/c++/8/bits/istream.tcc \
-  /usr/include/c++/8/bits/stream_iterator.h \
-  /usr/include/boost/config.hpp \
-  /usr/include/boost/config/user.hpp \
-  /usr/include/boost/config/detail/select_compiler_config.hpp \
-  /usr/include/boost/config/compiler/gcc.hpp \
-  /usr/include/boost/config/detail/select_stdlib_config.hpp \
-  /usr/include/boost/config/stdlib/libstdcpp3.hpp \
+  ../include/server/mymuduo/CurrentThread.h \
   /usr/include/unistd.h \
   /usr/include/bits/posix_opt.h \
   /usr/include/bits/environments.h \
   /usr/include/bits/confname.h \
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/getopt_core.h \
-  /usr/include/boost/config/detail/select_platform_config.hpp \
-  /usr/include/boost/config/platform/linux.hpp \
-  /usr/include/boost/config/detail/posix_features.hpp \
-  /usr/include/boost/config/detail/suffix.hpp \
-  /usr/include/boost/detail/workaround.hpp \
-  /usr/include/boost/config/workaround.hpp \
-  /usr/include/boost/core/addressof.hpp \
-  /usr/include/c++/8/functional \
-  /usr/include/c++/8/tuple \
-  /usr/include/c++/8/utility \
-  /usr/include/c++/8/bits/stl_relops.h \
-  /usr/include/c++/8/array \
-  /usr/include/c++/8/bits/uses_allocator.h \
-  /usr/include/c++/8/bits/invoke.h \
-  /usr/include/c++/8/bits/refwrap.h \
-  /usr/include/c++/8/bits/std_function.h \
-  /usr/include/c++/8/memory \
-  /usr/include/c++/8/bits/stl_construct.h \
-  /usr/include/c++/8/bits/stl_uninitialized.h \
-  /usr/include/c++/8/bits/stl_tempbuf.h \
-  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
-  /usr/include/c++/8/ext/concurrence.h \
-  /usr/include/c++/8/bits/unique_ptr.h \
-  /usr/include/c++/8/bits/shared_ptr.h \
-  /usr/include/c++/8/bits/shared_ptr_base.h \
-  /usr/include/c++/8/bits/allocated_ptr.h \
-  /usr/include/c++/8/ext/aligned_buffer.h \
-  /usr/include/c++/8/bits/shared_ptr_atomic.h \
-  /usr/include/c++/8/bits/atomic_base.h \
-  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
-  /usr/include/c++/8/backward/auto_ptr.h \
-  /usr/include/muduo/net/Buffer.h \
-  /usr/include/muduo/net/Endian.h \
-  /usr/include/c++/8/algorithm \
-  /usr/include/c++/8/bits/stl_algo.h \
-  /usr/include/c++/8/bits/algorithmfwd.h \
-  /usr/include/c++/8/bits/stl_heap.h \
-  /usr/include/c++/8/bits/uniform_int_dist.h \
-  /usr/include/c++/8/limits \
-  /usr/include/c++/8/vector \
-  /usr/include/c++/8/bits/stl_vector.h \
-  /usr/include/c++/8/bits/stl_bvector.h \
-  /usr/include/c++/8/bits/vector.tcc \
-  /usr/include/muduo/net/InetAddress.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  ../include/server/mymuduo/Acceptor.h \
+  ../include/server/mymuduo/Socket.h \
+  ../include/server/mymuduo/Channel.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
   /usr/include/netinet/in.h \
   /usr/include/sys/socket.h \
   /usr/include/bits/types/struct_iovec.h \
@@ -1858,148 +1456,20 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/asm-generic/sockios.h \
   /usr/include/bits/types/struct_osockaddr.h \
   /usr/include/bits/in.h \
-  /usr/include/boost/any.hpp \
-  /usr/include/boost/type_index.hpp \
-  /usr/include/boost/type_index/stl_type_index.hpp \
-  /usr/include/boost/type_index/type_index_facade.hpp \
-  /usr/include/c++/8/cstring \
-  /usr/include/boost/static_assert.hpp \
-  /usr/include/boost/throw_exception.hpp \
-  /usr/include/boost/exception/exception.hpp \
-  /usr/include/boost/current_function.hpp \
-  /usr/include/boost/core/demangle.hpp \
-  /usr/include/c++/8/cxxabi.h \
-  /usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h \
-  /usr/include/boost/type_traits/is_const.hpp \
-  /usr/include/boost/type_traits/integral_constant.hpp \
-  /usr/include/boost/type_traits/is_reference.hpp \
-  /usr/include/boost/type_traits/is_lvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_rvalue_reference.hpp \
-  /usr/include/boost/type_traits/is_volatile.hpp \
-  /usr/include/boost/type_traits/remove_cv.hpp \
-  /usr/include/boost/type_traits/remove_reference.hpp \
-  /usr/include/boost/mpl/if.hpp \
-  /usr/include/boost/mpl/aux_/value_wknd.hpp \
-  /usr/include/boost/mpl/aux_/static_cast.hpp \
-  /usr/include/boost/mpl/aux_/config/workaround.hpp \
-  /usr/include/boost/mpl/aux_/config/integral.hpp \
-  /usr/include/boost/mpl/aux_/config/msvc.hpp \
-  /usr/include/boost/mpl/aux_/config/eti.hpp \
-  /usr/include/boost/mpl/aux_/na_spec.hpp \
-  /usr/include/boost/mpl/lambda_fwd.hpp \
-  /usr/include/boost/mpl/void_fwd.hpp \
-  /usr/include/boost/mpl/aux_/adl_barrier.hpp \
-  /usr/include/boost/mpl/aux_/config/adl.hpp \
-  /usr/include/boost/mpl/aux_/config/intel.hpp \
-  /usr/include/boost/mpl/aux_/config/gcc.hpp \
-  /usr/include/boost/mpl/aux_/na.hpp \
-  /usr/include/boost/mpl/bool.hpp \
-  /usr/include/boost/mpl/bool_fwd.hpp \
-  /usr/include/boost/mpl/integral_c_tag.hpp \
-  /usr/include/boost/mpl/aux_/config/static_constant.hpp \
-  /usr/include/boost/mpl/aux_/na_fwd.hpp \
-  /usr/include/boost/mpl/aux_/config/ctps.hpp \
-  /usr/include/boost/mpl/aux_/config/lambda.hpp \
-  /usr/include/boost/mpl/aux_/config/ttp.hpp \
-  /usr/include/boost/mpl/int.hpp \
-  /usr/include/boost/mpl/int_fwd.hpp \
-  /usr/include/boost/mpl/aux_/nttp_decl.hpp \
-  /usr/include/boost/mpl/aux_/config/nttp.hpp \
-  /usr/include/boost/mpl/aux_/integral_wrapper.hpp \
-  /usr/include/boost/preprocessor/cat.hpp \
-  /usr/include/boost/preprocessor/config/config.hpp \
-  /usr/include/boost/mpl/aux_/lambda_arity_param.hpp \
-  /usr/include/boost/mpl/aux_/template_arity_fwd.hpp \
-  /usr/include/boost/mpl/aux_/arity.hpp \
-  /usr/include/boost/mpl/aux_/config/dtp.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/params.hpp \
-  /usr/include/boost/mpl/aux_/config/preprocessor.hpp \
-  /usr/include/boost/preprocessor/comma_if.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma_if.hpp \
-  /usr/include/boost/preprocessor/control/if.hpp \
-  /usr/include/boost/preprocessor/control/iif.hpp \
-  /usr/include/boost/preprocessor/logical/bool.hpp \
-  /usr/include/boost/preprocessor/facilities/empty.hpp \
-  /usr/include/boost/preprocessor/punctuation/comma.hpp \
-  /usr/include/boost/preprocessor/repeat.hpp \
-  /usr/include/boost/preprocessor/repetition/repeat.hpp \
-  /usr/include/boost/preprocessor/debug/error.hpp \
-  /usr/include/boost/preprocessor/detail/auto_rec.hpp \
-  /usr/include/boost/preprocessor/tuple/eat.hpp \
-  /usr/include/boost/preprocessor/inc.hpp \
-  /usr/include/boost/preprocessor/arithmetic/inc.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/enum.hpp \
-  /usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp \
-  /usr/include/boost/mpl/limits/arity.hpp \
-  /usr/include/boost/preprocessor/logical/and.hpp \
-  /usr/include/boost/preprocessor/logical/bitand.hpp \
-  /usr/include/boost/preprocessor/identity.hpp \
-  /usr/include/boost/preprocessor/facilities/identity.hpp \
-  /usr/include/boost/preprocessor/empty.hpp \
-  /usr/include/boost/preprocessor/arithmetic/add.hpp \
-  /usr/include/boost/preprocessor/arithmetic/dec.hpp \
-  /usr/include/boost/preprocessor/control/while.hpp \
-  /usr/include/boost/preprocessor/list/fold_left.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_left.hpp \
-  /usr/include/boost/preprocessor/control/expr_iif.hpp \
-  /usr/include/boost/preprocessor/list/adt.hpp \
-  /usr/include/boost/preprocessor/detail/is_binary.hpp \
-  /usr/include/boost/preprocessor/detail/check.hpp \
-  /usr/include/boost/preprocessor/logical/compl.hpp \
-  /usr/include/boost/preprocessor/list/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/detail/fold_right.hpp \
-  /usr/include/boost/preprocessor/list/reverse.hpp \
-  /usr/include/boost/preprocessor/control/detail/while.hpp \
-  /usr/include/boost/preprocessor/tuple/elem.hpp \
-  /usr/include/boost/preprocessor/facilities/expand.hpp \
-  /usr/include/boost/preprocessor/facilities/overload.hpp \
-  /usr/include/boost/preprocessor/variadic/size.hpp \
-  /usr/include/boost/preprocessor/tuple/rem.hpp \
-  /usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp \
-  /usr/include/boost/preprocessor/variadic/elem.hpp \
-  /usr/include/boost/preprocessor/arithmetic/sub.hpp \
-  /usr/include/boost/mpl/aux_/config/overload_resolution.hpp \
-  /usr/include/boost/mpl/aux_/lambda_support.hpp \
-  /usr/include/boost/mpl/or.hpp \
-  /usr/include/boost/mpl/aux_/config/use_preprocessed.hpp \
-  /usr/include/boost/mpl/aux_/nested_type_wknd.hpp \
-  /usr/include/boost/mpl/aux_/include_preprocessed.hpp \
-  /usr/include/boost/mpl/aux_/config/compiler.hpp \
-  /usr/include/boost/preprocessor/stringize.hpp \
-  /usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp \
-  /usr/include/boost/type_traits/decay.hpp \
-  /usr/include/boost/type_traits/is_array.hpp \
-  /usr/include/boost/type_traits/is_function.hpp \
-  /usr/include/boost/type_traits/detail/config.hpp \
-  /usr/include/boost/version.hpp \
-  /usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp \
-  /usr/include/boost/type_traits/remove_bounds.hpp \
-  /usr/include/boost/type_traits/remove_extent.hpp \
-  /usr/include/boost/type_traits/add_pointer.hpp \
-  /usr/include/boost/type_traits/add_reference.hpp \
-  /usr/include/boost/utility/enable_if.hpp \
-  /usr/include/boost/core/enable_if.hpp \
-  /usr/include/boost/type_traits/is_same.hpp \
-  /usr/include/c++/8/map \
-  /usr/include/c++/8/bits/stl_tree.h \
-  /usr/include/c++/8/bits/stl_map.h \
-  /usr/include/c++/8/bits/stl_multimap.h \
-  /usr/include/muduo/net/EventLoop.h \
-  /usr/include/c++/8/atomic \
-  /usr/include/muduo/base/Mutex.h \
-  /usr/include/muduo/base/CurrentThread.h \
-  /usr/include/muduo/net/TimerId.h \
-  ../include/server/chatservice.hpp \
+  ../include/server/mymuduo/EventLoopThreadPool.h \
+  ../include/server/mymuduo/Callbacks.h \
+  ../include/server/mymuduo/TcpConnection.h \
+  ../include/server/mymuduo/Buffer.h \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h \
   /usr/include/c++/8/unordered_map \
   /usr/include/c++/8/bits/hashtable.h \
   /usr/include/c++/8/bits/hashtable_policy.h \
   /usr/include/c++/8/bits/unordered_map.h \
-  /usr/include/c++/8/mutex \
-  /usr/include/c++/8/chrono \
-  /usr/include/c++/8/ratio \
-  /usr/include/c++/8/ctime \
-  /usr/include/c++/8/bits/parse_numbers.h \
-  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/chatservice.hpp \
   ../include/server/model/usermodel.hpp \
   ../include/server/model/user.hpp \
   ../include/server/model/offlinemessagemodel.hpp \
@@ -2016,12 +1486,20 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/c++/8/thread \
   ../thirdparty/json.hpp \
   /usr/include/c++/8/cassert \
+  /usr/include/assert.h \
   /usr/include/c++/8/ciso646 \
+  /usr/include/c++/8/cstddef \
+  /usr/include/c++/8/iterator \
+  /usr/include/c++/8/bits/stream_iterator.h \
   /usr/include/c++/8/numeric \
   /usr/include/c++/8/bits/stl_numeric.h \
   /usr/include/c++/8/forward_list \
   /usr/include/c++/8/bits/forward_list.h \
   /usr/include/c++/8/bits/forward_list.tcc \
+  /usr/include/c++/8/map \
+  /usr/include/c++/8/bits/stl_tree.h \
+  /usr/include/c++/8/bits/stl_map.h \
+  /usr/include/c++/8/bits/stl_multimap.h \
   /usr/include/c++/8/valarray \
   /usr/include/c++/8/cmath \
   /usr/include/math.h \
@@ -2043,7 +1521,9 @@ src/server/CMakeFiles/ChatServer.dir/main.cpp.o: ../src/server/main.cpp \
   /usr/include/c++/8/bits/gslice_array.h \
   /usr/include/c++/8/bits/mask_array.h \
   /usr/include/c++/8/bits/indirect_array.h \
-  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/cstring \
+  /usr/include/string.h \
+  /usr/include/strings.h \
   /usr/include/signal.h \
   /usr/include/bits/signum.h \
   /usr/include/bits/signum-generic.h \
@@ -2840,6 +2320,3240 @@ src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o: ../src/server/model/
   /usr/include/c++/8/bits/std_mutex.h \
   /usr/include/c++/8/condition_variable
 
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.o: ../src/server/mymuduo/Acceptor.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Acceptor.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Socket.h \
+  ../include/server/mymuduo/Channel.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  ../include/server/mymuduo/Logger.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/socket.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.o: ../src/server/mymuduo/Buffer.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Buffer.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h \
+  /usr/include/c++/8/limits \
+  /usr/include/sys/uio.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/uio_lim.h \
+  /usr/include/bits/uio-ext.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.o: ../src/server/mymuduo/Channel.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Channel.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  ../include/server/mymuduo/Logger.h \
+  /usr/include/sys/epoll.h \
+  /usr/include/bits/epoll.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.o: ../src/server/mymuduo/CurrentThread.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/unistd.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.o: ../src/server/mymuduo/DefaultPoller.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Poller.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  ../include/server/mymuduo/EPollPoller.h \
+  /usr/include/sys/epoll.h \
+  /usr/include/bits/epoll.h \
+  /usr/include/c++/8/stdlib.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.o: ../src/server/mymuduo/EPollPoller.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/EPollPoller.h \
+  ../include/server/mymuduo/Poller.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  /usr/include/sys/epoll.h \
+  /usr/include/bits/epoll.h \
+  ../include/server/mymuduo/Logger.h \
+  ../include/server/mymuduo/Channel.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/strings.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.o: ../src/server/mymuduo/EventLoop.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  ../include/server/mymuduo/Logger.h \
+  ../include/server/mymuduo/Poller.h \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  ../include/server/mymuduo/Channel.h \
+  /usr/include/sys/eventfd.h \
+  /usr/include/bits/eventfd.h \
+  /usr/include/fcntl.h \
+  /usr/include/bits/fcntl.h \
+  /usr/include/bits/fcntl-linux.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/linux/falloc.h \
+  /usr/include/bits/stat.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.o: ../src/server/mymuduo/EventLoopThread.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/EventLoopThread.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Thread.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/thread \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  /usr/include/c++/8/condition_variable \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.o: ../src/server/mymuduo/EventLoopThreadPool.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/EventLoopThreadPool.h \
+  ../include/server/mymuduo/noncopyable.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  ../include/server/mymuduo/EventLoopThread.h \
+  ../include/server/mymuduo/Thread.h \
+  /usr/include/c++/8/thread \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  /usr/include/c++/8/condition_variable
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.o: ../src/server/mymuduo/InetAddress.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/netinet/in.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/bits/socket.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/strings.h \
+  /usr/include/string.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.o: ../src/server/mymuduo/Logger.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Logger.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.o: ../src/server/mymuduo/Poller.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Poller.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  ../include/server/mymuduo/Channel.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.o: ../src/server/mymuduo/Socket.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Socket.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Logger.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/socket.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/strings.h \
+  /usr/include/netinet/tcp.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.o: ../src/server/mymuduo/TcpConnection.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/TcpConnection.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/netinet/in.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/bits/socket.h \
+  /usr/include/sys/types.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  ../include/server/mymuduo/Callbacks.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/bits/std_function.h \
+  ../include/server/mymuduo/Buffer.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h \
+  /usr/include/c++/8/limits \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  /usr/include/c++/8/atomic \
+  ../include/server/mymuduo/Logger.h \
+  ../include/server/mymuduo/Socket.h \
+  ../include/server/mymuduo/Channel.h \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  /usr/include/strings.h \
+  /usr/include/netinet/tcp.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.o: ../src/server/mymuduo/TcpServer.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/TcpServer.h \
+  ../include/server/mymuduo/EventLoop.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/vector \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_vector.h \
+  /usr/include/c++/8/bits/stl_bvector.h \
+  /usr/include/c++/8/bits/vector.tcc \
+  /usr/include/c++/8/atomic \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/c++/8/mutex \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/bits/std_mutex.h \
+  ../include/server/mymuduo/noncopyable.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  ../include/server/mymuduo/Acceptor.h \
+  ../include/server/mymuduo/Socket.h \
+  ../include/server/mymuduo/Channel.h \
+  ../include/server/mymuduo/InetAddress.h \
+  /usr/include/arpa/inet.h \
+  /usr/include/netinet/in.h \
+  /usr/include/sys/socket.h \
+  /usr/include/bits/types/struct_iovec.h \
+  /usr/include/bits/socket.h \
+  /usr/include/bits/socket_type.h \
+  /usr/include/bits/sockaddr.h \
+  /usr/include/asm/socket.h \
+  /usr/include/asm-generic/socket.h \
+  /usr/include/asm/sockios.h \
+  /usr/include/asm-generic/sockios.h \
+  /usr/include/bits/types/struct_osockaddr.h \
+  /usr/include/bits/in.h \
+  ../include/server/mymuduo/EventLoopThreadPool.h \
+  ../include/server/mymuduo/Callbacks.h \
+  ../include/server/mymuduo/TcpConnection.h \
+  ../include/server/mymuduo/Buffer.h \
+  /usr/include/c++/8/algorithm \
+  /usr/include/c++/8/bits/stl_algo.h \
+  /usr/include/c++/8/bits/algorithmfwd.h \
+  /usr/include/c++/8/bits/stl_heap.h \
+  /usr/include/c++/8/bits/uniform_int_dist.h \
+  /usr/include/c++/8/unordered_map \
+  /usr/include/c++/8/bits/hashtable.h \
+  /usr/include/c++/8/bits/hashtable_policy.h \
+  /usr/include/c++/8/bits/unordered_map.h \
+  ../include/server/mymuduo/Logger.h \
+  /usr/include/strings.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.o: ../src/server/mymuduo/Thread.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Thread.h \
+  ../include/server/mymuduo/noncopyable.h \
+  /usr/include/c++/8/functional \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/tuple \
+  /usr/include/c++/8/utility \
+  /usr/include/c++/8/bits/stl_relops.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/array \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/uses_allocator.h \
+  /usr/include/c++/8/bits/invoke.h \
+  /usr/include/c++/8/bits/refwrap.h \
+  /usr/include/c++/8/bits/std_function.h \
+  /usr/include/c++/8/thread \
+  /usr/include/c++/8/chrono \
+  /usr/include/c++/8/ratio \
+  /usr/include/c++/8/limits \
+  /usr/include/c++/8/ctime \
+  /usr/include/c++/8/bits/parse_numbers.h \
+  /usr/include/c++/8/memory \
+  /usr/include/c++/8/bits/stl_construct.h \
+  /usr/include/c++/8/bits/stl_uninitialized.h \
+  /usr/include/c++/8/bits/stl_tempbuf.h \
+  /usr/include/c++/8/bits/stl_raw_storage_iter.h \
+  /usr/include/c++/8/ext/concurrence.h \
+  /usr/include/c++/8/bits/unique_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr.h \
+  /usr/include/c++/8/bits/shared_ptr_base.h \
+  /usr/include/c++/8/bits/allocated_ptr.h \
+  /usr/include/c++/8/ext/aligned_buffer.h \
+  /usr/include/c++/8/bits/shared_ptr_atomic.h \
+  /usr/include/c++/8/bits/atomic_base.h \
+  /usr/include/c++/8/bits/atomic_lockfree_defines.h \
+  /usr/include/c++/8/backward/auto_ptr.h \
+  /usr/include/unistd.h \
+  /usr/include/bits/posix_opt.h \
+  /usr/include/bits/environments.h \
+  /usr/include/bits/confname.h \
+  /usr/include/bits/getopt_posix.h \
+  /usr/include/bits/getopt_core.h \
+  /usr/include/c++/8/atomic \
+  ../include/server/mymuduo/CurrentThread.h \
+  /usr/include/sys/syscall.h \
+  /usr/include/asm/unistd.h \
+  /usr/include/asm/unistd_64.h \
+  /usr/include/bits/syscall.h \
+  /usr/include/semaphore.h \
+  /usr/include/bits/semaphore.h
+
+src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.o: ../src/server/mymuduo/Timestamp.cc \
+  /usr/include/stdc-predef.h \
+  ../include/server/mymuduo/Timestamp.h \
+  /usr/include/c++/8/iostream \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h \
+  /usr/include/bits/wordsize.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h \
+  /usr/include/features.h \
+  /usr/include/sys/cdefs.h \
+  /usr/include/bits/long-double.h \
+  /usr/include/gnu/stubs.h \
+  /usr/include/gnu/stubs-64.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h \
+  /usr/include/c++/8/ostream \
+  /usr/include/c++/8/ios \
+  /usr/include/c++/8/iosfwd \
+  /usr/include/c++/8/bits/stringfwd.h \
+  /usr/include/c++/8/bits/memoryfwd.h \
+  /usr/include/c++/8/bits/postypes.h \
+  /usr/include/c++/8/cwchar \
+  /usr/include/wchar.h \
+  /usr/include/bits/libc-header-start.h \
+  /usr/include/bits/floatn.h \
+  /usr/include/bits/floatn-common.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+  /usr/include/bits/wchar.h \
+  /usr/include/bits/types/wint_t.h \
+  /usr/include/bits/types/mbstate_t.h \
+  /usr/include/bits/types/__mbstate_t.h \
+  /usr/include/bits/types/__FILE.h \
+  /usr/include/bits/types/FILE.h \
+  /usr/include/bits/types/locale_t.h \
+  /usr/include/bits/types/__locale_t.h \
+  /usr/include/c++/8/exception \
+  /usr/include/c++/8/bits/exception.h \
+  /usr/include/c++/8/bits/exception_ptr.h \
+  /usr/include/c++/8/bits/exception_defines.h \
+  /usr/include/c++/8/bits/cxxabi_init_exception.h \
+  /usr/include/c++/8/typeinfo \
+  /usr/include/c++/8/bits/hash_bytes.h \
+  /usr/include/c++/8/new \
+  /usr/include/c++/8/bits/nested_exception.h \
+  /usr/include/c++/8/bits/move.h \
+  /usr/include/c++/8/bits/concept_check.h \
+  /usr/include/c++/8/type_traits \
+  /usr/include/c++/8/bits/char_traits.h \
+  /usr/include/c++/8/bits/stl_algobase.h \
+  /usr/include/c++/8/bits/functexcept.h \
+  /usr/include/c++/8/bits/cpp_type_traits.h \
+  /usr/include/c++/8/ext/type_traits.h \
+  /usr/include/c++/8/ext/numeric_traits.h \
+  /usr/include/c++/8/bits/stl_pair.h \
+  /usr/include/c++/8/bits/stl_iterator_base_types.h \
+  /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+  /usr/include/c++/8/debug/assertions.h \
+  /usr/include/c++/8/bits/stl_iterator.h \
+  /usr/include/c++/8/bits/ptr_traits.h \
+  /usr/include/c++/8/debug/debug.h \
+  /usr/include/c++/8/bits/predefined_ops.h \
+  /usr/include/c++/8/cstdint \
+  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+  /usr/include/stdint.h \
+  /usr/include/bits/types.h \
+  /usr/include/bits/typesizes.h \
+  /usr/include/bits/stdint-intn.h \
+  /usr/include/bits/stdint-uintn.h \
+  /usr/include/c++/8/bits/localefwd.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h \
+  /usr/include/c++/8/clocale \
+  /usr/include/locale.h \
+  /usr/include/bits/locale.h \
+  /usr/include/c++/8/cctype \
+  /usr/include/ctype.h \
+  /usr/include/endian.h \
+  /usr/include/bits/endian.h \
+  /usr/include/bits/byteswap.h \
+  /usr/include/bits/uintn-identity.h \
+  /usr/include/c++/8/bits/ios_base.h \
+  /usr/include/c++/8/ext/atomicity.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h \
+  /usr/include/pthread.h \
+  /usr/include/sched.h \
+  /usr/include/bits/types/time_t.h \
+  /usr/include/bits/types/struct_timespec.h \
+  /usr/include/bits/sched.h \
+  /usr/include/bits/types/struct_sched_param.h \
+  /usr/include/bits/cpu-set.h \
+  /usr/include/time.h \
+  /usr/include/bits/time.h \
+  /usr/include/bits/timex.h \
+  /usr/include/bits/types/struct_timeval.h \
+  /usr/include/bits/types/clock_t.h \
+  /usr/include/bits/types/struct_tm.h \
+  /usr/include/bits/types/clockid_t.h \
+  /usr/include/bits/types/timer_t.h \
+  /usr/include/bits/types/struct_itimerspec.h \
+  /usr/include/bits/pthreadtypes.h \
+  /usr/include/bits/thread-shared-types.h \
+  /usr/include/bits/pthreadtypes-arch.h \
+  /usr/include/bits/setjmp.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h \
+  /usr/include/c++/8/bits/locale_classes.h \
+  /usr/include/c++/8/string \
+  /usr/include/c++/8/bits/allocator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h \
+  /usr/include/c++/8/ext/new_allocator.h \
+  /usr/include/c++/8/bits/ostream_insert.h \
+  /usr/include/c++/8/bits/cxxabi_forced.h \
+  /usr/include/c++/8/bits/stl_function.h \
+  /usr/include/c++/8/backward/binders.h \
+  /usr/include/c++/8/bits/range_access.h \
+  /usr/include/c++/8/initializer_list \
+  /usr/include/c++/8/bits/basic_string.h \
+  /usr/include/c++/8/ext/alloc_traits.h \
+  /usr/include/c++/8/bits/alloc_traits.h \
+  /usr/include/c++/8/ext/string_conversions.h \
+  /usr/include/c++/8/cstdlib \
+  /usr/include/stdlib.h \
+  /usr/include/bits/waitflags.h \
+  /usr/include/bits/waitstatus.h \
+  /usr/include/sys/types.h \
+  /usr/include/sys/select.h \
+  /usr/include/bits/select.h \
+  /usr/include/bits/types/sigset_t.h \
+  /usr/include/bits/types/__sigset_t.h \
+  /usr/include/alloca.h \
+  /usr/include/bits/stdlib-float.h \
+  /usr/include/c++/8/bits/std_abs.h \
+  /usr/include/c++/8/cstdio \
+  /usr/include/stdio.h \
+  /usr/include/bits/types/__fpos_t.h \
+  /usr/include/bits/types/__fpos64_t.h \
+  /usr/include/bits/types/struct_FILE.h \
+  /usr/include/bits/types/cookie_io_functions_t.h \
+  /usr/include/bits/stdio_lim.h \
+  /usr/include/bits/sys_errlist.h \
+  /usr/include/c++/8/cerrno \
+  /usr/include/errno.h \
+  /usr/include/bits/errno.h \
+  /usr/include/linux/errno.h \
+  /usr/include/asm/errno.h \
+  /usr/include/asm-generic/errno.h \
+  /usr/include/asm-generic/errno-base.h \
+  /usr/include/bits/types/error_t.h \
+  /usr/include/c++/8/bits/functional_hash.h \
+  /usr/include/c++/8/bits/basic_string.tcc \
+  /usr/include/c++/8/bits/locale_classes.tcc \
+  /usr/include/c++/8/system_error \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h \
+  /usr/include/c++/8/stdexcept \
+  /usr/include/c++/8/streambuf \
+  /usr/include/c++/8/bits/streambuf.tcc \
+  /usr/include/c++/8/bits/basic_ios.h \
+  /usr/include/c++/8/bits/locale_facets.h \
+  /usr/include/c++/8/cwctype \
+  /usr/include/wctype.h \
+  /usr/include/bits/wctype-wchar.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h \
+  /usr/include/c++/8/bits/streambuf_iterator.h \
+  /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h \
+  /usr/include/c++/8/bits/locale_facets.tcc \
+  /usr/include/c++/8/bits/basic_ios.tcc \
+  /usr/include/c++/8/bits/ostream.tcc \
+  /usr/include/c++/8/istream \
+  /usr/include/c++/8/bits/istream.tcc
+
 src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redis.cpp \
   /usr/include/stdc-predef.h \
   ../include/server/redis/redis.hpp \
@@ -3046,6 +5760,48 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 ../src/server/redis/redis.cpp:
 
+../src/server/mymuduo/Thread.cc:
+
+../src/server/mymuduo/TcpServer.cc:
+
+/usr/include/netinet/tcp.h:
+
+../src/server/mymuduo/Logger.cc:
+
+/usr/include/semaphore.h:
+
+../src/server/mymuduo/InetAddress.cc:
+
+../src/server/mymuduo/EventLoopThreadPool.cc:
+
+../src/server/mymuduo/EventLoopThread.cc:
+
+/usr/include/bits/stat.h:
+
+/usr/include/linux/falloc.h:
+
+/usr/include/bits/fcntl.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/sys/eventfd.h:
+
+../src/server/mymuduo/EPollPoller.cc:
+
+../include/server/mymuduo/EPollPoller.h:
+
+../src/server/mymuduo/DefaultPoller.cc:
+
+../src/server/mymuduo/CurrentThread.cc:
+
+/usr/include/sys/epoll.h:
+
+/usr/include/bits/uio-ext.h:
+
+/usr/include/bits/uio_lim.h:
+
+../src/server/mymuduo/Buffer.cc:
+
 ../src/server/model/offlinemessagemodel.cpp:
 
 /usr/include/bits/sigthread.h:
@@ -3054,281 +5810,117 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/sys/ucontext.h:
 
-/usr/include/bits/sigevent-consts.h:
-
-/usr/include/bits/types/sigval_t.h:
-
-/usr/include/bits/siginfo-consts-arch.h:
-
-/usr/include/bits/siginfo-arch.h:
-
-/usr/include/bits/types/siginfo_t.h:
-
-../src/server/model/groupmodel.cpp:
-
-/usr/include/bits/signum-generic.h:
-
-../src/server/db/db.cpp:
-
-/usr/include/c++/8/bits/fstream.tcc:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h:
-
-/usr/include/c++/8/fstream:
-
-/usr/include/c++/8/bits/deque.tcc:
-
-/usr/include/mysql/errmsg.h:
-
-/usr/include/mysql/mysql_version.h:
-
-/usr/include/mysql/mysql/plugin_auth_common.h:
-
-/usr/include/c++/8/stdlib.h:
-
-/usr/include/mysql/mysql/client_plugin.h:
-
-/usr/include/mysql/mysql_com.h:
-
-/usr/include/mysql/my_list.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/8/include/stdbool.h:
-
-/usr/include/mysql/mysql.h:
-
-/usr/include/c++/8/iostream:
-
-../include/server/db/MysqlConn.h:
-
-../include/server/db/ConnectionPool.h:
-
-/usr/include/muduo/base/LogStream.h:
-
-../include/public.hpp:
-
-/usr/include/c++/8/thread:
-
-/usr/local/include/hiredis/alloc.h:
-
-../include/server/redis/redis.hpp:
-
-../include/server/model/group.hpp:
-
-../include/server/model/groupmodel.hpp:
-
-../include/server/model/friendmodel.hpp:
-
-/usr/include/c++/8/bits/parse_numbers.h:
-
-/usr/include/c++/8/chrono:
-
-/usr/include/c++/8/bits/mask_array.h:
-
-/usr/include/c++/8/bits/valarray_after.h:
-
-/usr/include/c++/8/bits/valarray_before.h:
-
-/usr/include/c++/8/bits/valarray_array.tcc:
-
-/usr/include/c++/8/bits/valarray_array.h:
-
-/usr/include/bits/iscanonical.h:
-
-/usr/include/bits/mathcalls-narrow.h:
-
-/usr/include/bits/math-vector.h:
-
-/usr/include/math.h:
-
-/usr/include/c++/8/bits/hashtable_policy.h:
-
-/usr/include/c++/8/unordered_map:
-
-/usr/include/c++/8/bits/forward_list.h:
-
-/usr/include/c++/8/forward_list:
-
-/usr/include/c++/8/bits/stl_numeric.h:
-
-/usr/include/c++/8/numeric:
-
-/usr/include/c++/8/ciso646:
-
-/usr/include/c++/8/cassert:
-
-/usr/include/muduo/net/TimerId.h:
-
 /usr/include/bits/sigaction.h:
 
-/usr/include/muduo/base/CurrentThread.h:
-
-/usr/include/muduo/base/Mutex.h:
-
-/usr/include/muduo/net/EventLoop.h:
-
-/usr/include/c++/8/bits/stl_multimap.h:
-
-/usr/include/c++/8/bits/stl_map.h:
-
-../src/server/main.cpp:
-
-/usr/include/c++/8/map:
-
-/usr/include/mysql/mysql/udf_registration_types.h:
-
-/usr/include/boost/type_traits/is_same.hpp:
-
-/usr/include/boost/core/enable_if.hpp:
-
-/usr/include/bits/types/__sigval_t.h:
-
-/usr/include/boost/utility/enable_if.hpp:
-
-/usr/include/boost/type_traits/add_reference.hpp:
-
-/usr/include/boost/type_traits/remove_bounds.hpp:
-
-/usr/include/boost/type_traits/is_function.hpp:
-
-/usr/include/boost/type_traits/is_array.hpp:
-
-/usr/include/boost/type_traits/decay.hpp:
-
-/usr/include/muduo/base/Logging.h:
-
-/usr/include/boost/mpl/aux_/preprocessed/gcc/or.hpp:
-
-/usr/include/boost/mpl/aux_/include_preprocessed.hpp:
-
-/usr/include/boost/mpl/aux_/config/use_preprocessed.hpp:
-
-/usr/include/boost/mpl/aux_/config/overload_resolution.hpp:
-
-/usr/include/boost/preprocessor/arithmetic/sub.hpp:
-
-/usr/include/boost/preprocessor/tuple/detail/is_single_return.hpp:
-
-/usr/include/boost/preprocessor/tuple/rem.hpp:
-
-/usr/include/c++/8/bits/stl_queue.h:
-
-/usr/include/boost/preprocessor/facilities/overload.hpp:
-
-/usr/include/boost/preprocessor/facilities/expand.hpp:
-
-/usr/include/boost/preprocessor/tuple/elem.hpp:
-
-/usr/include/c++/8/bits/indirect_array.h:
-
-/usr/include/c++/8/bits/gslice.h:
-
-/usr/include/boost/preprocessor/list/reverse.hpp:
-
-/usr/include/boost/preprocessor/list/detail/fold_right.hpp:
-
-/usr/include/boost/preprocessor/list/fold_right.hpp:
+/usr/include/bits/sigevent-consts.h:
 
 /usr/include/bits/ss_flags.h:
 
 /usr/include/bits/types/sigevent_t.h:
 
-/usr/include/boost/preprocessor/detail/check.hpp:
+/usr/include/bits/types/sigval_t.h:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h:
+/usr/include/bits/siginfo-consts-arch.h:
 
-/usr/include/boost/config/platform/linux.hpp:
+/usr/include/bits/siginfo-consts.h:
 
-/usr/include/c++/8/bits/locale_classes.h:
+/usr/include/bits/siginfo-arch.h:
 
-/usr/include/c++/8/type_traits:
+/usr/include/bits/types/__sigval_t.h:
 
-/usr/include/boost/type_traits/add_pointer.hpp:
+/usr/include/bits/types/siginfo_t.h:
 
-/usr/include/bits/types/__mbstate_t.h:
+/usr/include/bits/types/sig_atomic_t.h:
 
-/usr/include/c++/8/bits/ios_base.h:
+../src/server/model/groupmodel.cpp:
 
-/usr/include/mysql/field_types.h:
+/usr/include/bits/signum-generic.h:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
+/usr/include/bits/signum.h:
+
+/usr/include/signal.h:
+
+../include/server/mymuduo/Timestamp.h:
+
+../include/server/mymuduo/TcpConnection.h:
+
+/usr/include/c++/8/bits/atomic_lockfree_defines.h:
+
+/usr/include/c++/8/atomic:
+
+/usr/include/bits/setjmp.h:
+
+/usr/include/c++/8/bits/stl_bvector.h:
+
+/usr/include/bits/pthreadtypes-arch.h:
+
+/usr/include/c++/8/vector:
+
+/usr/include/sys/select.h:
+
+../include/server/mymuduo/Poller.h:
+
+/usr/include/c++/8/bits/functional_hash.h:
+
+/usr/include/bits/semaphore.h:
+
+/usr/include/bits/types/error_t.h:
+
+/usr/include/netinet/in.h:
+
+../include/server/model/friendmodel.hpp:
 
 /usr/include/asm/errno.h:
 
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/c++/8/bits/functional_hash.h:
+/usr/include/c++/8/bits/valarray_after.h:
 
 /usr/include/bits/types/struct_FILE.h:
 
 /usr/include/string.h:
 
-/usr/include/c++/8/bits/std_mutex.h:
-
-/usr/include/stdio.h:
-
-/usr/include/c++/8/bits/locale_classes.tcc:
-
 /usr/include/c++/8/cstdio:
 
 /usr/include/c++/8/bits/memoryfwd.h:
 
-../src/server/db/MysqlConn.cc:
-
-/usr/include/c++/8/bits/stl_vector.h:
-
-/usr/include/boost/type_traits/detail/is_function_ptr_helper.hpp:
+../include/server/mymuduo/Socket.h:
 
 /usr/include/alloca.h:
+
+/usr/include/bits/types/__sigset_t.h:
 
 /usr/include/bits/select.h:
 
 /usr/include/c++/8/bits/move.h:
 
-../include/server/model/groupuser.hpp:
-
-/usr/include/linux/errno.h:
-
-/usr/include/c++/8/cerrno:
-
 /usr/include/bits/waitflags.h:
+
+/usr/include/c++/8/thread:
 
 /usr/include/c++/8/cstdlib:
 
-/usr/include/bits/setjmp.h:
+../include/server/db/MysqlConn.h:
 
-/usr/include/boost/config.hpp:
-
-/usr/include/boost/preprocessor/comma_if.hpp:
+/usr/include/c++/8/fstream:
 
 /usr/include/c++/8/bits/std_abs.h:
 
-/usr/include/bits/stdint-uintn.h:
-
 /usr/include/c++/8/ext/numeric_traits.h:
 
-/usr/include/boost/mpl/aux_/integral_wrapper.hpp:
+/usr/include/bits/stdint-uintn.h:
 
-/usr/include/boost/mpl/aux_/adl_barrier.hpp:
+/usr/include/c++/8/cassert:
 
-/usr/include/boost/type_traits/detail/config.hpp:
+/usr/include/bits/types/clockid_t.h:
 
-/usr/include/c++/8/system_error:
-
-../include/server/chatservice.hpp:
-
-/usr/include/bits/timex.h:
+/usr/include/mysql/mysql_time.h:
 
 /usr/include/bits/byteswap.h:
 
 /usr/include/bits/time.h:
 
-/usr/include/muduo/net/TcpConnection.h:
-
-/usr/include/boost/preprocessor/punctuation/comma_if.hpp:
-
 /usr/include/bits/types/struct_sched_param.h:
+
+../src/server/mymuduo/Poller.cc:
 
 /usr/include/time.h:
 
@@ -3336,87 +5928,65 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/sched.h:
 
-/usr/include/c++/8/deque:
-
-/usr/include/bits/sys_errlist.h:
-
-/usr/include/pthread.h:
-
-/usr/include/bits/pthreadtypes-arch.h:
-
-/usr/include/c++/8/bits/stl_bvector.h:
-
 /usr/include/c++/8/bits/locale_facets.tcc:
 
 /usr/include/c++/8/bits/cxxabi_forced.h:
 
-/usr/include/bits/types/stack_t.h:
-
-/usr/include/c++/8/stdexcept:
-
-/usr/include/bits/uintn-identity.h:
-
-/usr/include/sys/time.h:
-
-/usr/include/bits/types/struct_itimerspec.h:
+/usr/include/bits/endian.h:
 
 /usr/include/c++/8/bits/stl_construct.h:
 
-/usr/include/boost/mpl/integral_c_tag.hpp:
+/usr/include/c++/8/bits/uses_allocator.h:
 
 /usr/include/c++/8/cctype:
 
-/usr/include/locale.h:
-
-/usr/include/boost/config/detail/select_compiler_config.hpp:
-
 /usr/include/c++/8/bits/refwrap.h:
+
+/usr/include/locale.h:
 
 /usr/include/c++/8/iosfwd:
 
-/usr/include/c++/8/ctime:
+/usr/include/bits/locale.h:
 
-/usr/include/c++/8/ratio:
+/usr/include/bits/types/struct_timespec.h:
 
-/usr/include/muduo/base/Timestamp.h:
+/usr/include/c++/8/utility:
 
-/usr/include/bits/types/__FILE.h:
+/usr/include/c++/8/bits/exception_defines.h:
 
-/usr/include/c++/8/ios:
+/usr/include/c++/8/bits/shared_ptr.h:
 
-/usr/include/c++/8/iterator:
+../include/server/redis/redis.hpp:
 
-/usr/include/bits/floatn.h:
+/usr/include/c++/8/bits/codecvt.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h:
+
+/usr/include/c++/8/bits/localefwd.h:
+
+/usr/include/bits/eventfd.h:
+
+/usr/include/mysql/field_types.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/cpu_defines.h:
+
+/usr/include/c++/8/bits/ios_base.h:
+
+/usr/include/c++/8/bits/stringfwd.h:
 
 /usr/include/c++/8/backward/auto_ptr.h:
 
-/usr/include/boost/preprocessor/logical/and.hpp:
+/usr/include/c++/8/typeinfo:
 
-/usr/include/mysql/my_compress.h:
-
-/usr/include/bits/stdio_lim.h:
-
-/usr/include/c++/8/string:
-
-/usr/include/bits/wchar.h:
+/usr/include/c++/8/bits/hash_bytes.h:
 
 /usr/include/bits/types/cookie_io_functions_t.h:
 
 /usr/include/strings.h:
 
-/usr/include/c++/8/bits/hash_bytes.h:
-
-/usr/include/c++/8/bits/unordered_map.h:
-
-/usr/include/c++/8/bits/streambuf.tcc:
-
-/usr/include/bits/types/__locale_t.h:
-
-../src/server/model/usermodel.cpp:
-
-/usr/include/c++/8/bits/exception_ptr.h:
-
-/usr/include/bits/sched.h:
+/usr/include/c++/8/bits/cpp_type_traits.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h:
 
@@ -3424,25 +5994,21 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/bits/sockaddr.h:
 
-/usr/include/muduo/base/Types.h:
+/usr/include/bits/sched.h:
 
-/usr/include/boost/type_traits/remove_extent.hpp:
+/usr/include/bits/types/__locale_t.h:
 
-/usr/include/c++/8/bits/stl_algobase.h:
+../src/server/model/usermodel.cpp:
 
-/usr/include/boost/preprocessor/arithmetic/add.hpp:
+/usr/include/c++/8/bits/exception_ptr.h:
 
-/usr/include/boost/preprocessor/stringize.hpp:
+/usr/include/c++/8/bits/cxxabi_init_exception.h:
 
-/usr/include/bits/stdint-intn.h:
+../src/server/mymuduo/Socket.cc:
 
-/usr/include/boost/mpl/aux_/nested_type_wknd.hpp:
+/usr/include/c++/8/bits/atomic_base.h:
 
-/usr/include/bits/cpu-set.h:
-
-/usr/include/ctype.h:
-
-/usr/include/c++/8/cwchar:
+/usr/include/gnu/stubs.h:
 
 /usr/include/c++/8/bits/alloc_traits.h:
 
@@ -3450,65 +6016,91 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/os_defines.h:
 
-../src/server/chatservice.cpp:
+/usr/include/c++/8/iostream:
 
-/usr/include/c++/8/bits/basic_string.h:
+/usr/include/c++/8/new:
 
-/usr/include/c++/8/bits/ostream_insert.h:
+/usr/include/bits/uintn-identity.h:
 
-/usr/include/gnu/stubs-64.h:
+/usr/include/bits/types/stack_t.h:
 
-/usr/include/boost/config/detail/suffix.hpp:
+/usr/include/c++/8/stdexcept:
 
-/usr/include/boost/version.hpp:
+/usr/include/mysql/mysql_version.h:
 
-/usr/include/endian.h:
+/usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h:
 
-/usr/include/muduo/net/TcpServer.h:
+/usr/include/c++/8/type_traits:
 
-/usr/include/c++/8/exception:
+/usr/include/bits/types/__mbstate_t.h:
+
+/usr/include/c++/8/bits/locale_classes.h:
+
+/usr/include/c++/8/bits/invoke.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h:
+
+/usr/include/c++/8/array:
+
+/usr/include/c++/8/bits/stl_uninitialized.h:
 
 /usr/include/c++/8/backward/binders.h:
 
-../include/server/model/usermodel.hpp:
+/usr/include/c++/8/exception:
 
-/usr/include/errno.h:
+/usr/include/c++/8/bits/stl_iterator_base_funcs.h:
 
-/usr/include/stdint.h:
+/usr/include/asm/socket.h:
 
-/usr/include/boost/operators.hpp:
+/usr/include/sys/cdefs.h:
 
-../thirdparty/json.hpp:
+/usr/include/c++/8/bits/nested_exception.h:
 
-/usr/include/bits/thread-shared-types.h:
+/usr/include/c++/8/bits/stl_tempbuf.h:
 
-/usr/include/c++/8/bits/postypes.h:
+/usr/include/assert.h:
 
-/usr/include/bits/long-double.h:
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h:
 
-/usr/include/boost/mpl/or.hpp:
+/usr/include/asm-generic/errno-base.h:
 
-/usr/include/c++/8/cstddef:
+/usr/include/c++/8/memory:
 
-/usr/include/boost/config/user.hpp:
+../src/server/chatserver.cpp:
 
-/usr/include/c++/8/bits/gslice_array.h:
+/usr/include/linux/errno.h:
 
-/usr/include/bits/types/__fpos64_t.h:
+../include/server/model/groupuser.hpp:
 
-/usr/include/bits/types/clockid_t.h:
+/usr/include/mysql/mysql/client_plugin.h:
 
-/usr/include/boost/type_traits/is_lvalue_reference.hpp:
+/usr/include/c++/8/bits/shared_ptr_atomic.h:
 
-/usr/include/boost/mpl/if.hpp:
+/usr/include/c++/8/bits/stl_function.h:
 
-/usr/include/sys/types.h:
+/usr/include/c++/8/bits/stl_map.h:
 
-/usr/include/bits/types/__sigset_t.h:
+../include/server/model/groupmodel.hpp:
 
-/usr/include/boost/mpl/aux_/config/static_constant.hpp:
+/usr/include/mysql/errmsg.h:
 
-/usr/include/boost/mpl/aux_/config/compiler.hpp:
+/usr/include/bits/pthreadtypes.h:
+
+../include/server/mymuduo/EventLoopThreadPool.h:
+
+/usr/include/pthread.h:
+
+/usr/include/c++/8/functional:
+
+/usr/include/c++/8/bits/basic_string.tcc:
+
+../include/server/model/user.hpp:
+
+/usr/include/c++/8/bits/stl_relops.h:
+
+/usr/include/asm-generic/errno.h:
+
+/usr/include/bits/getopt_posix.h:
 
 /usr/include/stdlib.h:
 
@@ -3518,103 +6110,147 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/bits/types/locale_t.h:
 
-/usr/include/c++/8/debug/debug.h:
+/usr/include/endian.h:
+
+../include/server/mymuduo/EventLoop.h:
+
+/usr/include/c++/8/tuple:
 
 /usr/include/bits/wordsize.h:
 
-/usr/include/asm-generic/errno-base.h:
+/usr/include/bits/epoll.h:
 
-/usr/include/bits/signum.h:
+../src/server/mymuduo/Acceptor.cc:
 
-/usr/include/boost/mpl/aux_/na.hpp:
+/usr/include/c++/8/debug/debug.h:
 
-/usr/include/c++/8/valarray:
+../include/server/mymuduo/Thread.h:
 
-/usr/include/boost/mpl/int.hpp:
+/usr/include/bits/types/clock_t.h:
 
-/usr/include/muduo/base/noncopyable.h:
+/usr/include/c++/8/algorithm:
 
-/usr/include/boost/mpl/aux_/config/workaround.hpp:
+/usr/include/c++/8/cstring:
 
-/usr/include/gnu/stubs.h:
+../include/public.hpp:
 
-/usr/include/c++/8/bits/atomic_base.h:
+/usr/include/c++/8/queue:
 
-/usr/include/c++/8/bits/stl_pair.h:
+/usr/include/sys/types.h:
 
-/usr/include/c++/8/bits/concept_check.h:
+../src/server/mymuduo/EventLoop.cc:
 
-/usr/include/boost/throw_exception.hpp:
+/usr/include/c++/8/unordered_map:
 
-/usr/include/c++/8/bits/cpp_type_traits.h:
+/usr/include/ctype.h:
 
-/usr/include/c++/8/typeinfo:
+/usr/include/c++/8/cwchar:
 
-/usr/include/signal.h:
-
-/usr/include/boost/preprocessor/arithmetic/dec.hpp:
-
-/usr/include/bits/errno.h:
-
-/usr/include/c++/8/bits/basic_ios.h:
-
-/usr/include/bits/types/__fpos_t.h:
+../include/server/mymuduo/TcpServer.h:
 
 /usr/include/bits/types.h:
 
+/usr/include/bits/cpu-set.h:
+
+/usr/include/bits/stdint-intn.h:
+
+/usr/include/c++/8/ratio:
+
+/usr/include/bits/types/__FILE.h:
+
+/usr/include/c++/8/ctime:
+
+/usr/include/c++/8/stdlib.h:
+
 /usr/include/bits/types/mbstate_t.h:
-
-../src/server/db/ConnectionPool.cc:
-
-/usr/include/c++/8/bits/stream_iterator.h:
 
 /usr/include/c++/8/cstdint:
 
 /usr/include/bits/posix_opt.h:
 
-/usr/include/muduo/net/InetAddress.h:
+/usr/include/c++/8/string:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/atomic_word.h:
+/usr/include/stdio.h:
 
-/usr/include/c++/8/cstring:
+/usr/include/c++/8/bits/std_mutex.h:
 
-/usr/include/c++/8/algorithm:
+/usr/include/bits/wchar.h:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/gthr.h:
+/usr/include/c++/8/bits/stl_pair.h:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/c++locale.h:
+/usr/include/c++/8/bits/concept_check.h:
 
-/usr/include/muduo/net/Endian.h:
+/usr/include/sys/syscall.h:
+
+/usr/include/bits/waitstatus.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h:
+
+/usr/include/features.h:
+
+/usr/include/c++/8/bits/char_traits.h:
+
+/usr/local/include/hiredis/alloc.h:
+
+/usr/include/c++/8/bits/stl_algobase.h:
+
+/usr/include/c++/8/chrono:
+
+/usr/include/asm/unistd.h:
+
+/usr/include/c++/8/ext/string_conversions.h:
+
+/usr/include/c++/8/clocale:
+
+/usr/include/mysql/my_list.h:
+
+/usr/include/bits/libc-header-start.h:
+
+/usr/include/bits/fcntl-linux.h:
+
+/usr/include/bits/errno.h:
+
+/usr/include/c++/8/bits/basic_ios.h:
+
+/usr/include/c++/8/cmath:
+
+../include/server/model/offlinemessagemodel.hpp:
+
+/usr/include/bits/types/__fpos_t.h:
 
 /usr/include/c++/8/bits/stl_iterator_base_types.h:
 
-/usr/include/sys/cdefs.h:
-
-/usr/include/c++/8/bits/stl_iterator_base_funcs.h:
-
-/usr/include/asm/socket.h:
-
-/usr/local/include/hiredis/hiredis.h:
-
-/usr/include/bits/types/sigset_t.h:
-
-/usr/include/bits/mathcalls-helper-functions.h:
-
-/usr/include/c++/8/debug/assertions.h:
-
 /usr/include/c++/8/bits/istream.tcc:
 
+/usr/include/c++/8/numeric:
+
 /usr/include/c++/8/bits/stl_iterator.h:
+
+../src/server/mymuduo/Channel.cc:
+
+/usr/include/c++/8/bits/vector.tcc:
+
+/usr/include/c++/8/bits/deque.tcc:
+
+/usr/include/c++/8/bits/stl_queue.h:
+
+/usr/include/bits/libm-simd-decl-stubs.h:
+
+/usr/include/c++/8/bits/std_function.h:
 
 /usr/include/c++/8/bits/predefined_ops.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h:
 
-/usr/include/c++/8/mutex:
+/usr/include/c++/8/bits/forward_list.tcc:
 
-/usr/include/boost/preprocessor/control/iif.hpp:
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h:
 
-/usr/include/boost/config/compiler/gcc.hpp:
+/usr/include/bits/floatn.h:
+
+/usr/include/c++/8/ios:
+
+/usr/include/c++/8/iterator:
 
 /usr/include/c++/8/bits/ptr_traits.h:
 
@@ -3622,137 +6258,111 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/c++/8/bits/stl_raw_storage_iter.h:
 
+/usr/include/sys/uio.h:
+
 /usr/include/bits/types/FILE.h:
 
 /usr/include/bits/floatn-common.h:
 
-/usr/include/muduo/base/copyable.h:
-
-/usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h:
-
-/usr/include/bits/waitstatus.h:
-
-/usr/include/c++/8/new:
-
-/usr/include/muduo/base/Atomic.h:
-
 ../include/server/chatserver.hpp:
 
-/usr/include/boost/mpl/aux_/lambda_arity_param.hpp:
+../include/server/mymuduo/EventLoopThread.h:
 
-/usr/include/boost/mpl/aux_/config/nttp.hpp:
+/usr/include/c++/8/bits/streambuf.tcc:
+
+/usr/include/c++/8/bits/unordered_map.h:
 
 /usr/include/bits/types/wint_t.h:
 
-/usr/include/assert.h:
-
-/usr/include/c++/8/bits/nested_exception.h:
-
-/usr/include/c++/8/bits/stl_tempbuf.h:
-
 /usr/include/bits/types/struct_timeval.h:
-
-/usr/include/c++/8/bits/forward_list.tcc:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/c++allocator.h:
-
-/usr/include/muduo/net/Callbacks.h:
-
-/usr/include/sys/select.h:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/gthr-default.h:
-
-/usr/include/c++/8/bits/invoke.h:
 
 /usr/include/bits/types/timer_t.h:
 
 /usr/include/bits/in.h:
 
+/usr/include/bits/thread-shared-types.h:
+
+/usr/include/bits/long-double.h:
+
+/usr/include/c++/8/bits/postypes.h:
+
+../thirdparty/json.hpp:
+
 /usr/include/c++/8/ostream:
 
 /usr/include/c++/8/bits/allocator.h:
 
-/usr/include/boost/mpl/aux_/config/preprocessor.hpp:
+/usr/include/arpa/inet.h:
 
-/usr/include/boost/preprocessor/variadic/size.hpp:
+/usr/include/c++/8/bits/unique_ptr.h:
 
-/usr/include/boost/preprocessor/repetition/repeat.hpp:
+/usr/include/c++/8/ext/alloc_traits.h:
 
-/usr/include/boost/preprocessor/tuple/eat.hpp:
+/usr/include/c++/8/bits/shared_ptr_base.h:
 
-/usr/include/c++/8/bits/localefwd.h:
+/usr/include/bits/types/struct_tm.h:
 
-/usr/include/c++/8/bits/stl_function.h:
+/usr/include/c++/8/bits/allocated_ptr.h:
 
-/usr/include/c++/8/bits/shared_ptr_atomic.h:
+/usr/include/c++/8/ext/aligned_buffer.h:
 
-/usr/include/c++/8/bits/cxxabi_init_exception.h:
+/usr/include/c++/8/mutex:
 
-/usr/include/c++/8/condition_variable:
+../src/server/mymuduo/Timestamp.cc:
 
-/usr/include/c++/8/ext/type_traits.h:
+/usr/include/c++/8/bits/functexcept.h:
 
-/usr/include/c++/8/ext/string_conversions.h:
+/usr/include/c++/8/limits:
 
-/usr/include/c++/8/clocale:
+/usr/include/c++/8/bits/parse_numbers.h:
 
-/usr/include/c++/8/bits/basic_string.tcc:
+/usr/include/c++/8/system_error:
 
-/usr/include/boost/type_traits/is_reference.hpp:
+../include/server/mymuduo/InetAddress.h:
 
-/usr/include/bits/locale.h:
+/usr/include/c++/8/x86_64-redhat-linux/bits/error_constants.h:
 
-/usr/include/c++/8/bits/exception_defines.h:
+/usr/include/c++/8/bits/valarray_before.h:
 
-/usr/include/c++/8/bits/shared_ptr.h:
+../include/server/mymuduo/noncopyable.h:
+
+/usr/include/c++/8/bits/ostream.tcc:
+
+/usr/include/c++/8/bits/locale_classes.tcc:
+
+/usr/include/c++/8/initializer_list:
+
+/usr/include/c++/8/streambuf:
+
+/usr/include/bits/types/sigset_t.h:
+
+/usr/local/include/hiredis/hiredis.h:
+
+../src/server/db/db.cpp:
 
 /usr/include/stdc-predef.h:
 
 /usr/include/c++/8/bits/locale_facets.h:
 
-/usr/include/boost/type_traits/is_const.hpp:
-
-/usr/include/mysql/my_command.h:
-
-/usr/include/c++/8/cwctype:
+../include/server/model/group.hpp:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_base.h:
 
-/usr/include/bits/types/struct_sigstack.h:
-
-/usr/include/bits/fp-logb.h:
-
-/usr/include/wctype.h:
-
 /usr/include/c++/8/bits/streambuf_iterator.h:
-
-/usr/include/boost/mpl/aux_/preprocessor/enum.hpp:
 
 /usr/include/c++/8/x86_64-redhat-linux/bits/ctype_inline.h:
 
 /usr/include/c++/8/bits/basic_ios.tcc:
 
-/usr/include/c++/8/bits/ostream.tcc:
-
 /usr/include/bits/wctype-wchar.h:
 
 /usr/include/c++/8/istream:
 
-/usr/include/mysql/mysql_time.h:
+../include/server/mymuduo/CurrentThread.h:
 
-/usr/include/boost/config/detail/select_stdlib_config.hpp:
+/usr/include/wchar.h:
 
-/usr/include/boost/type_traits/remove_cv.hpp:
-
-/usr/include/boost/config/stdlib/libstdcpp3.hpp:
-
-/usr/include/c++/8/bits/vector.tcc:
-
-/usr/include/c++/8/bits/stl_deque.h:
-
-/usr/include/boost/current_function.hpp:
-
-/usr/include/bits/environments.h:
+/usr/include/bits/types/struct_osockaddr.h:
 
 ../src/server/model/friendmodel.cpp:
 
@@ -3766,103 +6376,33 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/bits/confname.h:
 
-/usr/include/asm-generic/errno.h:
-
-/usr/include/bits/getopt_posix.h:
-
-/usr/include/c++/8/bits/stl_relops.h:
-
-/usr/include/boost/type_traits/is_rvalue_reference.hpp:
-
 /usr/include/bits/getopt_core.h:
 
-/usr/include/bits/flt-eval-method.h:
+/usr/include/c++/8/cerrno:
 
-/usr/include/boost/detail/workaround.hpp:
+/usr/include/asm/unistd_64.h:
 
-/usr/include/boost/config/workaround.hpp:
+../include/server/mymuduo/Callbacks.h:
 
-/usr/include/boost/core/addressof.hpp:
+/usr/include/bits/syscall.h:
 
-/usr/include/c++/8/array:
+../include/server/mymuduo/Channel.h:
 
-/usr/include/c++/8/functional:
-
-/usr/include/c++/8/tuple:
-
-/usr/include/c++/8/bits/uses_allocator.h:
-
-/usr/include/bits/libm-simd-decl-stubs.h:
-
-/usr/include/c++/8/bits/std_function.h:
-
-/usr/include/boost/preprocessor/empty.hpp:
-
-../src/server/chatserver.cpp:
-
-/usr/include/c++/8/memory:
-
-/usr/include/c++/8/bits/stl_uninitialized.h:
-
-/usr/local/include/hiredis/sds.h:
-
-/usr/include/c++/8/ext/concurrence.h:
-
-/usr/include/c++/8/bits/unique_ptr.h:
-
-/usr/include/c++/8/ext/alloc_traits.h:
-
-/usr/include/c++/8/bits/shared_ptr_base.h:
-
-/usr/include/bits/types/struct_tm.h:
-
-/usr/include/c++/8/bits/allocated_ptr.h:
-
-/usr/include/boost/mpl/aux_/lambda_support.hpp:
-
-/usr/include/bits/libc-header-start.h:
-
-/usr/include/boost/preprocessor/logical/bool.hpp:
-
-/usr/include/boost/config/detail/posix_features.hpp:
-
-/usr/include/c++/8/ext/aligned_buffer.h:
-
-/usr/include/boost/mpl/aux_/na_spec.hpp:
-
-/usr/include/c++/8/bits/atomic_lockfree_defines.h:
-
-/usr/include/netinet/in.h:
-
-/usr/include/boost/static_assert.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessor/params.hpp:
-
-/usr/include/muduo/net/Buffer.h:
-
-/usr/include/c++/8/bits/algorithmfwd.h:
-
-/usr/include/boost/core/demangle.hpp:
-
-/usr/include/c++/8/bits/uniform_int_dist.h:
-
-/usr/include/features.h:
-
-/usr/include/c++/8/bits/char_traits.h:
-
-/usr/include/boost/preprocessor/control/while.hpp:
-
-/usr/include/c++/8/bits/functexcept.h:
-
-/usr/include/c++/8/limits:
-
-/usr/include/c++/8/vector:
+/usr/include/c++/8/ciso646:
 
 /usr/include/sys/socket.h:
 
-/usr/include/bits/socket.h:
+/usr/include/bits/types/struct_itimerspec.h:
+
+/usr/include/sys/time.h:
 
 /usr/include/bits/types/struct_iovec.h:
+
+/usr/include/bits/socket.h:
+
+/usr/include/c++/8/bits/stl_vector.h:
+
+../src/server/db/MysqlConn.cc:
 
 /usr/include/unistd.h:
 
@@ -3872,168 +6412,146 @@ src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o: ../src/server/redis/redi
 
 /usr/include/asm-generic/socket.h:
 
-/usr/include/wchar.h:
+../include/server/mymuduo/Buffer.h:
 
-/usr/include/bits/types/struct_osockaddr.h:
+/usr/include/c++/8/bits/algorithmfwd.h:
 
-/usr/include/boost/any.hpp:
+/usr/include/c++/8/bits/uniform_int_dist.h:
 
-/usr/include/c++/8/bits/stl_tree.h:
-
-/usr/include/asm-generic/sockios.h:
-
-/usr/include/boost/type_index/stl_type_index.hpp:
-
-/usr/include/bits/endian.h:
-
-/usr/include/boost/type_index/type_index_facade.hpp:
-
-/usr/include/c++/8/bits/stringfwd.h:
-
-/usr/include/boost/exception/exception.hpp:
-
-/usr/include/c++/8/cxxabi.h:
-
-/usr/include/c++/8/x86_64-redhat-linux/bits/cxxabi_tweaks.h:
-
-../include/server/model/user.hpp:
-
-/usr/include/boost/type_traits/integral_constant.hpp:
-
-/usr/include/bits/pthreadtypes.h:
-
-/usr/include/boost/mpl/aux_/preprocessor/def_params_tail.hpp:
-
-/usr/include/boost/type_traits/is_volatile.hpp:
-
-/usr/include/boost/type_traits/remove_reference.hpp:
-
-/usr/include/boost/preprocessor/logical/compl.hpp:
-
-/usr/include/boost/preprocessor/facilities/empty.hpp:
-
-/usr/include/boost/mpl/bool_fwd.hpp:
-
-/usr/include/bits/types/struct_timespec.h:
-
-/usr/include/c++/8/utility:
-
-/usr/include/boost/mpl/aux_/value_wknd.hpp:
-
-/usr/include/boost/mpl/int_fwd.hpp:
-
-/usr/include/bits/types/sig_atomic_t.h:
-
-/usr/include/boost/mpl/aux_/static_cast.hpp:
-
-/usr/include/boost/config/detail/select_platform_config.hpp:
-
-/usr/include/boost/mpl/aux_/config/integral.hpp:
-
-/usr/include/c++/8/bits/codecvt.h:
-
-/usr/include/boost/preprocessor/detail/is_binary.hpp:
-
-../include/server/model/offlinemessagemodel.hpp:
-
-/usr/include/boost/preprocessor/control/expr_iif.hpp:
-
-/usr/include/boost/mpl/aux_/config/msvc.hpp:
-
-/usr/include/boost/mpl/aux_/template_arity_fwd.hpp:
+/usr/include/c++/8/ext/atomicity.h:
 
 /usr/include/bits/fp-fast.h:
 
 /usr/include/c++/8/bits/hashtable.h:
 
-/usr/include/c++/8/ext/atomicity.h:
+/usr/include/c++/8/bits/hashtable_policy.h:
 
-/usr/include/boost/preprocessor/repeat.hpp:
+/usr/include/c++/8/x86_64-redhat-linux/bits/c++io.h:
 
-/usr/include/boost/mpl/aux_/config/eti.hpp:
+/usr/include/c++/8/cstddef:
 
-/usr/include/boost/preprocessor/variadic/elem.hpp:
+/usr/include/c++/8/bits/stl_numeric.h:
 
-/usr/include/bits/types/error_t.h:
+/usr/include/bits/timex.h:
 
-/usr/include/boost/mpl/lambda_fwd.hpp:
+../include/server/chatservice.hpp:
 
-/usr/include/c++/8/atomic:
+/usr/include/c++/8/forward_list:
 
-/usr/include/boost/mpl/void_fwd.hpp:
+/usr/include/c++/8/bits/forward_list.h:
 
-/usr/include/boost/mpl/aux_/config/adl.hpp:
+/usr/include/c++/8/bits/fstream.tcc:
 
-/usr/include/boost/preprocessor/control/detail/while.hpp:
+../src/server/main.cpp:
 
-/usr/include/c++/8/x86_64-redhat-linux/bits/c++config.h:
+/usr/include/c++/8/map:
 
-/usr/include/boost/mpl/aux_/config/gcc.hpp:
+/usr/include/asm-generic/sockios.h:
 
-/usr/include/c++/8/initializer_list:
+/usr/include/c++/8/bits/stl_tree.h:
 
-/usr/include/c++/8/streambuf:
+/usr/include/c++/8/bits/stl_multimap.h:
 
-/usr/include/boost/mpl/bool.hpp:
+/usr/include/c++/8/valarray:
 
-/usr/include/boost/mpl/aux_/na_fwd.hpp:
+/usr/include/math.h:
 
-/usr/include/boost/mpl/aux_/config/intel.hpp:
+/usr/include/bits/math-vector.h:
 
-/usr/include/boost/mpl/aux_/config/ctps.hpp:
+/usr/include/bits/flt-eval-method.h:
 
-/usr/include/boost/mpl/aux_/config/lambda.hpp:
+/usr/include/bits/types/struct_sigstack.h:
 
-/usr/local/include/hiredis/read.h:
+/usr/include/wctype.h:
 
-/usr/include/boost/mpl/aux_/config/ttp.hpp:
+/usr/include/bits/fp-logb.h:
 
-/usr/include/boost/preprocessor/cat.hpp:
+/usr/include/c++/8/debug/assertions.h:
 
-/usr/include/boost/mpl/aux_/nttp_decl.hpp:
-
-/usr/include/boost/preprocessor/config/config.hpp:
-
-/usr/include/boost/mpl/aux_/arity.hpp:
-
-/usr/include/boost/preprocessor/identity.hpp:
-
-/usr/include/boost/mpl/aux_/config/dtp.hpp:
-
-/usr/include/c++/8/bits/slice_array.h:
-
-/usr/include/boost/preprocessor/control/if.hpp:
-
-/usr/include/boost/preprocessor/punctuation/comma.hpp:
-
-/usr/include/boost/preprocessor/debug/error.hpp:
-
-/usr/include/boost/preprocessor/detail/auto_rec.hpp:
-
-/usr/include/boost/preprocessor/inc.hpp:
-
-/usr/include/bits/siginfo-consts.h:
-
-/usr/include/boost/preprocessor/arithmetic/inc.hpp:
-
-/usr/include/boost/mpl/limits/arity.hpp:
-
-/usr/include/muduo/base/StringPiece.h:
-
-/usr/include/boost/preprocessor/logical/bitand.hpp:
-
-/usr/include/c++/8/queue:
-
-/usr/include/boost/preprocessor/facilities/identity.hpp:
-
-/usr/include/boost/preprocessor/list/fold_left.hpp:
+/usr/include/bits/mathcalls-helper-functions.h:
 
 /usr/include/bits/mathcalls.h:
 
-/usr/include/boost/preprocessor/list/detail/fold_left.hpp:
+../include/server/mymuduo/Acceptor.h:
 
-/usr/include/c++/8/cmath:
+/usr/include/bits/mathcalls-narrow.h:
 
-/usr/include/boost/type_index.hpp:
+/usr/include/bits/iscanonical.h:
 
-/usr/include/boost/preprocessor/list/adt.hpp:
+/usr/include/c++/8/bits/valarray_array.h:
+
+/usr/include/mysql/mysql.h:
+
+../src/server/mymuduo/TcpConnection.cc:
+
+/usr/include/c++/8/bits/valarray_array.tcc:
+
+/usr/include/c++/8/bits/slice_array.h:
+
+/usr/include/bits/types/__fpos64_t.h:
+
+/usr/include/c++/8/bits/gslice_array.h:
+
+/usr/include/c++/8/bits/mask_array.h:
+
+/usr/include/c++/8/bits/gslice.h:
+
+/usr/include/c++/8/bits/indirect_array.h:
+
+/usr/include/stdint.h:
+
+/usr/include/errno.h:
+
+../include/server/model/usermodel.hpp:
+
+/usr/local/include/hiredis/read.h:
+
+/usr/include/c++/8/ext/concurrence.h:
+
+/usr/local/include/hiredis/sds.h:
+
+/usr/include/c++/8/bits/basic_string.h:
+
+/usr/include/gnu/stubs-64.h:
+
+/usr/include/c++/8/bits/ostream_insert.h:
+
+../src/server/chatservice.cpp:
+
+../include/server/mymuduo/Logger.h:
+
+/usr/include/c++/8/bits/stream_iterator.h:
+
+../src/server/db/ConnectionPool.cc:
+
+../include/server/db/ConnectionPool.h:
+
+/usr/lib/gcc/x86_64-redhat-linux/8/include/stdbool.h:
+
+/usr/include/mysql/mysql_com.h:
+
+/usr/include/c++/8/cwctype:
+
+/usr/include/mysql/my_command.h:
+
+/usr/include/bits/stdio_lim.h:
+
+/usr/include/mysql/my_compress.h:
+
+/usr/include/mysql/mysql/udf_registration_types.h:
+
+/usr/include/mysql/mysql/plugin_auth_common.h:
+
+/usr/include/bits/sys_errlist.h:
+
+/usr/include/c++/8/deque:
+
+/usr/include/bits/environments.h:
+
+/usr/include/c++/8/bits/stl_deque.h:
+
+/usr/include/c++/8/x86_64-redhat-linux/bits/basic_file.h:
+
+/usr/include/c++/8/ext/type_traits.h:
+
+/usr/include/c++/8/condition_variable:

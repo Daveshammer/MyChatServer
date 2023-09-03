@@ -85,14 +85,14 @@
 				{
 					"directoryIndex" : 3,
 					"id" : "ChatClient::@8ca63c80a879d0067daa",
-					"jsonFile" : "target-ChatClient-Debug-77117942930d6e180d40.json",
+					"jsonFile" : "target-ChatClient-Debug-17c3e5ccfa7e9ddadff9.json",
 					"name" : "ChatClient",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 2,
 					"id" : "ChatServer::@2804e40980a64c7d7ad1",
-					"jsonFile" : "target-ChatServer-Debug-37dc951e1ea91a19568d.json",
+					"jsonFile" : "target-ChatServer-Debug-ccb9e3e6e873deafac03.json",
 					"name" : "ChatServer",
 					"projectIndex" : 0
 				}

@@ -1,5 +1,7 @@
 #include "db.h"
-#include <muduo/base/Logging.h>
+// #include <muduo/base/Logging.h>
+#include "Logger.h"
+// #include <mymuduo/Logger.h>
 
 // 数据库配置信息
 static string server = "127.0.0.1";     // 数据库ip
@@ -29,11 +31,14 @@ bool MySQL::connect()
     {
         // C和C++代码默认的编码字符是ASCII，如果不设置，从MySQL上拉下来的中文显示？问号
         mysql_query(_conn, "set names gbk");
-        LOG_INFO << "connect mysql success!";
+        // LOG_INFO << "connect mysql success!";
+        LOG_INFO("connect mysql success!");
     }
     else
     {
-        LOG_INFO << "connect mysql fail!";
+        // LOG_INFO << "connect mysql fail!";
+        LOG_INFO("connect mysql fail!");
+
     }
 
     return p;
@@ -44,8 +49,10 @@ bool MySQL::update(string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {
-        LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
-                 << sql << "更新失败!";
+        // LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
+        //          << sql << "更新失败!";
+        LOG_INFO("%s:%s:%d:%s 更新失败! \n", __FILE__, __FUNCTION__, __LINE__, sql.c_str());
+
         return false;
     }
 
@@ -57,8 +64,10 @@ MYSQL_RES *MySQL::query(string sql)
 {
     if (mysql_query(_conn, sql.c_str()))
     {
-        LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
-                 << sql << "查询失败!";
+        // LOG_INFO << __FILE__ << ":" << __LINE__ << ":"
+        //          << sql << "查询失败!";
+        LOG_INFO("%s:%s:%d:%s 查询失败! \n", __FILE__, __FUNCTION__, __LINE__, sql.c_str());
+
         return nullptr;
     }
 

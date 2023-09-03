@@ -370,6 +370,414 @@ model/usermodel.cpp.s:
 	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.s
 .PHONY : model/usermodel.cpp.s
 
+mymuduo/Acceptor.o: mymuduo/Acceptor.cc.o
+.PHONY : mymuduo/Acceptor.o
+
+# target to build an object file
+mymuduo/Acceptor.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.o
+.PHONY : mymuduo/Acceptor.cc.o
+
+mymuduo/Acceptor.i: mymuduo/Acceptor.cc.i
+.PHONY : mymuduo/Acceptor.i
+
+# target to preprocess a source file
+mymuduo/Acceptor.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.i
+.PHONY : mymuduo/Acceptor.cc.i
+
+mymuduo/Acceptor.s: mymuduo/Acceptor.cc.s
+.PHONY : mymuduo/Acceptor.s
+
+# target to generate assembly for a file
+mymuduo/Acceptor.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.s
+.PHONY : mymuduo/Acceptor.cc.s
+
+mymuduo/Buffer.o: mymuduo/Buffer.cc.o
+.PHONY : mymuduo/Buffer.o
+
+# target to build an object file
+mymuduo/Buffer.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.o
+.PHONY : mymuduo/Buffer.cc.o
+
+mymuduo/Buffer.i: mymuduo/Buffer.cc.i
+.PHONY : mymuduo/Buffer.i
+
+# target to preprocess a source file
+mymuduo/Buffer.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.i
+.PHONY : mymuduo/Buffer.cc.i
+
+mymuduo/Buffer.s: mymuduo/Buffer.cc.s
+.PHONY : mymuduo/Buffer.s
+
+# target to generate assembly for a file
+mymuduo/Buffer.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.s
+.PHONY : mymuduo/Buffer.cc.s
+
+mymuduo/Channel.o: mymuduo/Channel.cc.o
+.PHONY : mymuduo/Channel.o
+
+# target to build an object file
+mymuduo/Channel.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.o
+.PHONY : mymuduo/Channel.cc.o
+
+mymuduo/Channel.i: mymuduo/Channel.cc.i
+.PHONY : mymuduo/Channel.i
+
+# target to preprocess a source file
+mymuduo/Channel.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.i
+.PHONY : mymuduo/Channel.cc.i
+
+mymuduo/Channel.s: mymuduo/Channel.cc.s
+.PHONY : mymuduo/Channel.s
+
+# target to generate assembly for a file
+mymuduo/Channel.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.s
+.PHONY : mymuduo/Channel.cc.s
+
+mymuduo/CurrentThread.o: mymuduo/CurrentThread.cc.o
+.PHONY : mymuduo/CurrentThread.o
+
+# target to build an object file
+mymuduo/CurrentThread.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.o
+.PHONY : mymuduo/CurrentThread.cc.o
+
+mymuduo/CurrentThread.i: mymuduo/CurrentThread.cc.i
+.PHONY : mymuduo/CurrentThread.i
+
+# target to preprocess a source file
+mymuduo/CurrentThread.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.i
+.PHONY : mymuduo/CurrentThread.cc.i
+
+mymuduo/CurrentThread.s: mymuduo/CurrentThread.cc.s
+.PHONY : mymuduo/CurrentThread.s
+
+# target to generate assembly for a file
+mymuduo/CurrentThread.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.s
+.PHONY : mymuduo/CurrentThread.cc.s
+
+mymuduo/DefaultPoller.o: mymuduo/DefaultPoller.cc.o
+.PHONY : mymuduo/DefaultPoller.o
+
+# target to build an object file
+mymuduo/DefaultPoller.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.o
+.PHONY : mymuduo/DefaultPoller.cc.o
+
+mymuduo/DefaultPoller.i: mymuduo/DefaultPoller.cc.i
+.PHONY : mymuduo/DefaultPoller.i
+
+# target to preprocess a source file
+mymuduo/DefaultPoller.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.i
+.PHONY : mymuduo/DefaultPoller.cc.i
+
+mymuduo/DefaultPoller.s: mymuduo/DefaultPoller.cc.s
+.PHONY : mymuduo/DefaultPoller.s
+
+# target to generate assembly for a file
+mymuduo/DefaultPoller.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.s
+.PHONY : mymuduo/DefaultPoller.cc.s
+
+mymuduo/EPollPoller.o: mymuduo/EPollPoller.cc.o
+.PHONY : mymuduo/EPollPoller.o
+
+# target to build an object file
+mymuduo/EPollPoller.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.o
+.PHONY : mymuduo/EPollPoller.cc.o
+
+mymuduo/EPollPoller.i: mymuduo/EPollPoller.cc.i
+.PHONY : mymuduo/EPollPoller.i
+
+# target to preprocess a source file
+mymuduo/EPollPoller.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.i
+.PHONY : mymuduo/EPollPoller.cc.i
+
+mymuduo/EPollPoller.s: mymuduo/EPollPoller.cc.s
+.PHONY : mymuduo/EPollPoller.s
+
+# target to generate assembly for a file
+mymuduo/EPollPoller.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.s
+.PHONY : mymuduo/EPollPoller.cc.s
+
+mymuduo/EventLoop.o: mymuduo/EventLoop.cc.o
+.PHONY : mymuduo/EventLoop.o
+
+# target to build an object file
+mymuduo/EventLoop.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.o
+.PHONY : mymuduo/EventLoop.cc.o
+
+mymuduo/EventLoop.i: mymuduo/EventLoop.cc.i
+.PHONY : mymuduo/EventLoop.i
+
+# target to preprocess a source file
+mymuduo/EventLoop.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.i
+.PHONY : mymuduo/EventLoop.cc.i
+
+mymuduo/EventLoop.s: mymuduo/EventLoop.cc.s
+.PHONY : mymuduo/EventLoop.s
+
+# target to generate assembly for a file
+mymuduo/EventLoop.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.s
+.PHONY : mymuduo/EventLoop.cc.s
+
+mymuduo/EventLoopThread.o: mymuduo/EventLoopThread.cc.o
+.PHONY : mymuduo/EventLoopThread.o
+
+# target to build an object file
+mymuduo/EventLoopThread.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.o
+.PHONY : mymuduo/EventLoopThread.cc.o
+
+mymuduo/EventLoopThread.i: mymuduo/EventLoopThread.cc.i
+.PHONY : mymuduo/EventLoopThread.i
+
+# target to preprocess a source file
+mymuduo/EventLoopThread.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.i
+.PHONY : mymuduo/EventLoopThread.cc.i
+
+mymuduo/EventLoopThread.s: mymuduo/EventLoopThread.cc.s
+.PHONY : mymuduo/EventLoopThread.s
+
+# target to generate assembly for a file
+mymuduo/EventLoopThread.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.s
+.PHONY : mymuduo/EventLoopThread.cc.s
+
+mymuduo/EventLoopThreadPool.o: mymuduo/EventLoopThreadPool.cc.o
+.PHONY : mymuduo/EventLoopThreadPool.o
+
+# target to build an object file
+mymuduo/EventLoopThreadPool.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.o
+.PHONY : mymuduo/EventLoopThreadPool.cc.o
+
+mymuduo/EventLoopThreadPool.i: mymuduo/EventLoopThreadPool.cc.i
+.PHONY : mymuduo/EventLoopThreadPool.i
+
+# target to preprocess a source file
+mymuduo/EventLoopThreadPool.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.i
+.PHONY : mymuduo/EventLoopThreadPool.cc.i
+
+mymuduo/EventLoopThreadPool.s: mymuduo/EventLoopThreadPool.cc.s
+.PHONY : mymuduo/EventLoopThreadPool.s
+
+# target to generate assembly for a file
+mymuduo/EventLoopThreadPool.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.s
+.PHONY : mymuduo/EventLoopThreadPool.cc.s
+
+mymuduo/InetAddress.o: mymuduo/InetAddress.cc.o
+.PHONY : mymuduo/InetAddress.o
+
+# target to build an object file
+mymuduo/InetAddress.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.o
+.PHONY : mymuduo/InetAddress.cc.o
+
+mymuduo/InetAddress.i: mymuduo/InetAddress.cc.i
+.PHONY : mymuduo/InetAddress.i
+
+# target to preprocess a source file
+mymuduo/InetAddress.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.i
+.PHONY : mymuduo/InetAddress.cc.i
+
+mymuduo/InetAddress.s: mymuduo/InetAddress.cc.s
+.PHONY : mymuduo/InetAddress.s
+
+# target to generate assembly for a file
+mymuduo/InetAddress.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.s
+.PHONY : mymuduo/InetAddress.cc.s
+
+mymuduo/Logger.o: mymuduo/Logger.cc.o
+.PHONY : mymuduo/Logger.o
+
+# target to build an object file
+mymuduo/Logger.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.o
+.PHONY : mymuduo/Logger.cc.o
+
+mymuduo/Logger.i: mymuduo/Logger.cc.i
+.PHONY : mymuduo/Logger.i
+
+# target to preprocess a source file
+mymuduo/Logger.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.i
+.PHONY : mymuduo/Logger.cc.i
+
+mymuduo/Logger.s: mymuduo/Logger.cc.s
+.PHONY : mymuduo/Logger.s
+
+# target to generate assembly for a file
+mymuduo/Logger.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.s
+.PHONY : mymuduo/Logger.cc.s
+
+mymuduo/Poller.o: mymuduo/Poller.cc.o
+.PHONY : mymuduo/Poller.o
+
+# target to build an object file
+mymuduo/Poller.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.o
+.PHONY : mymuduo/Poller.cc.o
+
+mymuduo/Poller.i: mymuduo/Poller.cc.i
+.PHONY : mymuduo/Poller.i
+
+# target to preprocess a source file
+mymuduo/Poller.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.i
+.PHONY : mymuduo/Poller.cc.i
+
+mymuduo/Poller.s: mymuduo/Poller.cc.s
+.PHONY : mymuduo/Poller.s
+
+# target to generate assembly for a file
+mymuduo/Poller.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.s
+.PHONY : mymuduo/Poller.cc.s
+
+mymuduo/Socket.o: mymuduo/Socket.cc.o
+.PHONY : mymuduo/Socket.o
+
+# target to build an object file
+mymuduo/Socket.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.o
+.PHONY : mymuduo/Socket.cc.o
+
+mymuduo/Socket.i: mymuduo/Socket.cc.i
+.PHONY : mymuduo/Socket.i
+
+# target to preprocess a source file
+mymuduo/Socket.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.i
+.PHONY : mymuduo/Socket.cc.i
+
+mymuduo/Socket.s: mymuduo/Socket.cc.s
+.PHONY : mymuduo/Socket.s
+
+# target to generate assembly for a file
+mymuduo/Socket.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.s
+.PHONY : mymuduo/Socket.cc.s
+
+mymuduo/TcpConnection.o: mymuduo/TcpConnection.cc.o
+.PHONY : mymuduo/TcpConnection.o
+
+# target to build an object file
+mymuduo/TcpConnection.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.o
+.PHONY : mymuduo/TcpConnection.cc.o
+
+mymuduo/TcpConnection.i: mymuduo/TcpConnection.cc.i
+.PHONY : mymuduo/TcpConnection.i
+
+# target to preprocess a source file
+mymuduo/TcpConnection.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.i
+.PHONY : mymuduo/TcpConnection.cc.i
+
+mymuduo/TcpConnection.s: mymuduo/TcpConnection.cc.s
+.PHONY : mymuduo/TcpConnection.s
+
+# target to generate assembly for a file
+mymuduo/TcpConnection.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.s
+.PHONY : mymuduo/TcpConnection.cc.s
+
+mymuduo/TcpServer.o: mymuduo/TcpServer.cc.o
+.PHONY : mymuduo/TcpServer.o
+
+# target to build an object file
+mymuduo/TcpServer.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.o
+.PHONY : mymuduo/TcpServer.cc.o
+
+mymuduo/TcpServer.i: mymuduo/TcpServer.cc.i
+.PHONY : mymuduo/TcpServer.i
+
+# target to preprocess a source file
+mymuduo/TcpServer.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.i
+.PHONY : mymuduo/TcpServer.cc.i
+
+mymuduo/TcpServer.s: mymuduo/TcpServer.cc.s
+.PHONY : mymuduo/TcpServer.s
+
+# target to generate assembly for a file
+mymuduo/TcpServer.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.s
+.PHONY : mymuduo/TcpServer.cc.s
+
+mymuduo/Thread.o: mymuduo/Thread.cc.o
+.PHONY : mymuduo/Thread.o
+
+# target to build an object file
+mymuduo/Thread.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.o
+.PHONY : mymuduo/Thread.cc.o
+
+mymuduo/Thread.i: mymuduo/Thread.cc.i
+.PHONY : mymuduo/Thread.i
+
+# target to preprocess a source file
+mymuduo/Thread.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.i
+.PHONY : mymuduo/Thread.cc.i
+
+mymuduo/Thread.s: mymuduo/Thread.cc.s
+.PHONY : mymuduo/Thread.s
+
+# target to generate assembly for a file
+mymuduo/Thread.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.s
+.PHONY : mymuduo/Thread.cc.s
+
+mymuduo/Timestamp.o: mymuduo/Timestamp.cc.o
+.PHONY : mymuduo/Timestamp.o
+
+# target to build an object file
+mymuduo/Timestamp.cc.o:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.o
+.PHONY : mymuduo/Timestamp.cc.o
+
+mymuduo/Timestamp.i: mymuduo/Timestamp.cc.i
+.PHONY : mymuduo/Timestamp.i
+
+# target to preprocess a source file
+mymuduo/Timestamp.cc.i:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.i
+.PHONY : mymuduo/Timestamp.cc.i
+
+mymuduo/Timestamp.s: mymuduo/Timestamp.cc.s
+.PHONY : mymuduo/Timestamp.s
+
+# target to generate assembly for a file
+mymuduo/Timestamp.cc.s:
+	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.s
+.PHONY : mymuduo/Timestamp.cc.s
+
 redis/redis.o: redis/redis.cpp.o
 .PHONY : redis/redis.o
 
@@ -433,6 +841,57 @@ help:
 	@echo "... model/usermodel.o"
 	@echo "... model/usermodel.i"
 	@echo "... model/usermodel.s"
+	@echo "... mymuduo/Acceptor.o"
+	@echo "... mymuduo/Acceptor.i"
+	@echo "... mymuduo/Acceptor.s"
+	@echo "... mymuduo/Buffer.o"
+	@echo "... mymuduo/Buffer.i"
+	@echo "... mymuduo/Buffer.s"
+	@echo "... mymuduo/Channel.o"
+	@echo "... mymuduo/Channel.i"
+	@echo "... mymuduo/Channel.s"
+	@echo "... mymuduo/CurrentThread.o"
+	@echo "... mymuduo/CurrentThread.i"
+	@echo "... mymuduo/CurrentThread.s"
+	@echo "... mymuduo/DefaultPoller.o"
+	@echo "... mymuduo/DefaultPoller.i"
+	@echo "... mymuduo/DefaultPoller.s"
+	@echo "... mymuduo/EPollPoller.o"
+	@echo "... mymuduo/EPollPoller.i"
+	@echo "... mymuduo/EPollPoller.s"
+	@echo "... mymuduo/EventLoop.o"
+	@echo "... mymuduo/EventLoop.i"
+	@echo "... mymuduo/EventLoop.s"
+	@echo "... mymuduo/EventLoopThread.o"
+	@echo "... mymuduo/EventLoopThread.i"
+	@echo "... mymuduo/EventLoopThread.s"
+	@echo "... mymuduo/EventLoopThreadPool.o"
+	@echo "... mymuduo/EventLoopThreadPool.i"
+	@echo "... mymuduo/EventLoopThreadPool.s"
+	@echo "... mymuduo/InetAddress.o"
+	@echo "... mymuduo/InetAddress.i"
+	@echo "... mymuduo/InetAddress.s"
+	@echo "... mymuduo/Logger.o"
+	@echo "... mymuduo/Logger.i"
+	@echo "... mymuduo/Logger.s"
+	@echo "... mymuduo/Poller.o"
+	@echo "... mymuduo/Poller.i"
+	@echo "... mymuduo/Poller.s"
+	@echo "... mymuduo/Socket.o"
+	@echo "... mymuduo/Socket.i"
+	@echo "... mymuduo/Socket.s"
+	@echo "... mymuduo/TcpConnection.o"
+	@echo "... mymuduo/TcpConnection.i"
+	@echo "... mymuduo/TcpConnection.s"
+	@echo "... mymuduo/TcpServer.o"
+	@echo "... mymuduo/TcpServer.i"
+	@echo "... mymuduo/TcpServer.s"
+	@echo "... mymuduo/Thread.o"
+	@echo "... mymuduo/Thread.i"
+	@echo "... mymuduo/Thread.s"
+	@echo "... mymuduo/Timestamp.o"
+	@echo "... mymuduo/Timestamp.i"
+	@echo "... mymuduo/Timestamp.s"
 	@echo "... redis/redis.o"
 	@echo "... redis/redis.i"
 	@echo "... redis/redis.s"
