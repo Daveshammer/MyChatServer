@@ -1,0 +1,10 @@
+/home/djf/sourcecode/MyChatServer/build/CMakeFiles/rebuild_cache.dir
+/home/djf/sourcecode/MyChatServer/build/CMakeFiles/edit_cache.dir
+/home/djf/sourcecode/MyChatServer/build/src/CMakeFiles/rebuild_cache.dir
+/home/djf/sourcecode/MyChatServer/build/src/CMakeFiles/edit_cache.dir
+/home/djf/sourcecode/MyChatServer/build/src/server/CMakeFiles/rebuild_cache.dir
+/home/djf/sourcecode/MyChatServer/build/src/server/CMakeFiles/ChatServer.dir
+/home/djf/sourcecode/MyChatServer/build/src/server/CMakeFiles/edit_cache.dir
+/home/djf/sourcecode/MyChatServer/build/src/client/CMakeFiles/rebuild_cache.dir
+/home/djf/sourcecode/MyChatServer/build/src/client/CMakeFiles/ChatClient.dir
+/home/djf/sourcecode/MyChatServer/build/src/client/CMakeFiles/edit_cache.dir
