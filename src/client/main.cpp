@@ -59,6 +59,8 @@ int main(int argc, char **argv)
     // 解析通过命令行参数传递的ip和port
     char *ip = argv[1];
     uint16_t port = atoi(argv[2]);
+    // char *ip = "127.0.0.1";
+    // uint16_t port = 6000;
 
     // 创建client端的socket
     int clientfd = socket(AF_INET, SOCK_STREAM, 0);

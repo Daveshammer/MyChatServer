@@ -87,7 +87,7 @@ std::shared_ptr<MysqlConn> ConnectionPool::getConnection()
     std::unique_lock<std::mutex> lock(mutex_);
     while (connectionQue_.empty())
     {
-        if (std::cv_status::timeout == cond_.wait_for(lock, std::chrono::seconds(timeOut_)))
+        if (std::cv_status::timeout == cond_.wait_for(lock, std::chrono::milliseconds(timeOut_)))
         {
             return nullptr; // 超时返回空指针
         }
@@ -108,7 +108,7 @@ void ConnectionPool::recycleConnection()
 {
     while (true)
     {
-        std::this_thread::sleep_for(std::chrono::seconds(maxIdleTime_));
+        std::this_thread::sleep_for(std::chrono::milliseconds(maxIdleTime_));
         std::unique_lock<std::mutex> lock(mutex_);
         while (connectionQue_.size() > initSize_)
         {
