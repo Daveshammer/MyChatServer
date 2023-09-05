@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/djf/sourcecode/MyChatServer
+CMAKE_SOURCE_DIR = /home/djf/MyChatServer
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/djf/sourcecode/MyChatServer/build
+CMAKE_BINARY_DIR = /home/djf/MyChatServer/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/djf/sourcecode/MyChatServer/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/djf/sourcecode/MyChatServer/build/CMakeFiles /home/djf/sourcecode/MyChatServer/build/src/server//CMakeFiles/progress.marks
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/djf/sourcecode/MyChatServer/build/CMakeFiles 0
+	cd /home/djf/MyChatServer/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/djf/MyChatServer/build/CMakeFiles /home/djf/MyChatServer/build/src/server//CMakeFiles/progress.marks
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/djf/MyChatServer/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/clean
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/djf/sourcecode/MyChatServer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/djf/MyChatServer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/server/CMakeFiles/ChatServer.dir/rule:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/rule
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 src/server/CMakeFiles/ChatServer.dir/rule
 .PHONY : src/server/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ChatServer: src/server/CMakeFiles/ChatServer.dir/rule
 
 # fast build rule for target.
 ChatServer/fast:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/build
 .PHONY : ChatServer/fast
 
 chatserver.o: chatserver.cpp.o
@@ -135,7 +135,7 @@ chatserver.o: chatserver.cpp.o
 
 # target to build an object file
 chatserver.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.o
 .PHONY : chatserver.cpp.o
 
 chatserver.i: chatserver.cpp.i
@@ -143,7 +143,7 @@ chatserver.i: chatserver.cpp.i
 
 # target to preprocess a source file
 chatserver.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.i
 .PHONY : chatserver.cpp.i
 
 chatserver.s: chatserver.cpp.s
@@ -151,7 +151,7 @@ chatserver.s: chatserver.cpp.s
 
 # target to generate assembly for a file
 chatserver.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatserver.cpp.s
 .PHONY : chatserver.cpp.s
 
 chatservice.o: chatservice.cpp.o
@@ -159,7 +159,7 @@ chatservice.o: chatservice.cpp.o
 
 # target to build an object file
 chatservice.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.o
 .PHONY : chatservice.cpp.o
 
 chatservice.i: chatservice.cpp.i
@@ -167,7 +167,7 @@ chatservice.i: chatservice.cpp.i
 
 # target to preprocess a source file
 chatservice.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.i
 .PHONY : chatservice.cpp.i
 
 chatservice.s: chatservice.cpp.s
@@ -175,7 +175,7 @@ chatservice.s: chatservice.cpp.s
 
 # target to generate assembly for a file
 chatservice.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/chatservice.cpp.s
 .PHONY : chatservice.cpp.s
 
 db/ConnectionPool.o: db/ConnectionPool.cc.o
@@ -183,7 +183,7 @@ db/ConnectionPool.o: db/ConnectionPool.cc.o
 
 # target to build an object file
 db/ConnectionPool.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.o
 .PHONY : db/ConnectionPool.cc.o
 
 db/ConnectionPool.i: db/ConnectionPool.cc.i
@@ -191,7 +191,7 @@ db/ConnectionPool.i: db/ConnectionPool.cc.i
 
 # target to preprocess a source file
 db/ConnectionPool.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.i
 .PHONY : db/ConnectionPool.cc.i
 
 db/ConnectionPool.s: db/ConnectionPool.cc.s
@@ -199,7 +199,7 @@ db/ConnectionPool.s: db/ConnectionPool.cc.s
 
 # target to generate assembly for a file
 db/ConnectionPool.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.s
 .PHONY : db/ConnectionPool.cc.s
 
 db/MysqlConn.o: db/MysqlConn.cc.o
@@ -207,7 +207,7 @@ db/MysqlConn.o: db/MysqlConn.cc.o
 
 # target to build an object file
 db/MysqlConn.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.o
 .PHONY : db/MysqlConn.cc.o
 
 db/MysqlConn.i: db/MysqlConn.cc.i
@@ -215,7 +215,7 @@ db/MysqlConn.i: db/MysqlConn.cc.i
 
 # target to preprocess a source file
 db/MysqlConn.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.i
 .PHONY : db/MysqlConn.cc.i
 
 db/MysqlConn.s: db/MysqlConn.cc.s
@@ -223,7 +223,7 @@ db/MysqlConn.s: db/MysqlConn.cc.s
 
 # target to generate assembly for a file
 db/MysqlConn.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/MysqlConn.cc.s
 .PHONY : db/MysqlConn.cc.s
 
 db/db.o: db/db.cpp.o
@@ -231,7 +231,7 @@ db/db.o: db/db.cpp.o
 
 # target to build an object file
 db/db.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.o
 .PHONY : db/db.cpp.o
 
 db/db.i: db/db.cpp.i
@@ -239,7 +239,7 @@ db/db.i: db/db.cpp.i
 
 # target to preprocess a source file
 db/db.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.i
 .PHONY : db/db.cpp.i
 
 db/db.s: db/db.cpp.s
@@ -247,7 +247,7 @@ db/db.s: db/db.cpp.s
 
 # target to generate assembly for a file
 db/db.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/db/db.cpp.s
 .PHONY : db/db.cpp.s
 
 main.o: main.cpp.o
@@ -255,7 +255,7 @@ main.o: main.cpp.o
 
 # target to build an object file
 main.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.o
 .PHONY : main.cpp.o
 
 main.i: main.cpp.i
@@ -263,7 +263,7 @@ main.i: main.cpp.i
 
 # target to preprocess a source file
 main.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.i
 .PHONY : main.cpp.i
 
 main.s: main.cpp.s
@@ -271,7 +271,7 @@ main.s: main.cpp.s
 
 # target to generate assembly for a file
 main.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/main.cpp.s
 .PHONY : main.cpp.s
 
 model/friendmodel.o: model/friendmodel.cpp.o
@@ -279,7 +279,7 @@ model/friendmodel.o: model/friendmodel.cpp.o
 
 # target to build an object file
 model/friendmodel.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o
 .PHONY : model/friendmodel.cpp.o
 
 model/friendmodel.i: model/friendmodel.cpp.i
@@ -287,7 +287,7 @@ model/friendmodel.i: model/friendmodel.cpp.i
 
 # target to preprocess a source file
 model/friendmodel.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.i
 .PHONY : model/friendmodel.cpp.i
 
 model/friendmodel.s: model/friendmodel.cpp.s
@@ -295,7 +295,7 @@ model/friendmodel.s: model/friendmodel.cpp.s
 
 # target to generate assembly for a file
 model/friendmodel.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/friendmodel.cpp.s
 .PHONY : model/friendmodel.cpp.s
 
 model/groupmodel.o: model/groupmodel.cpp.o
@@ -303,7 +303,7 @@ model/groupmodel.o: model/groupmodel.cpp.o
 
 # target to build an object file
 model/groupmodel.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o
 .PHONY : model/groupmodel.cpp.o
 
 model/groupmodel.i: model/groupmodel.cpp.i
@@ -311,7 +311,7 @@ model/groupmodel.i: model/groupmodel.cpp.i
 
 # target to preprocess a source file
 model/groupmodel.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.i
 .PHONY : model/groupmodel.cpp.i
 
 model/groupmodel.s: model/groupmodel.cpp.s
@@ -319,7 +319,7 @@ model/groupmodel.s: model/groupmodel.cpp.s
 
 # target to generate assembly for a file
 model/groupmodel.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/groupmodel.cpp.s
 .PHONY : model/groupmodel.cpp.s
 
 model/offlinemessagemodel.o: model/offlinemessagemodel.cpp.o
@@ -327,7 +327,7 @@ model/offlinemessagemodel.o: model/offlinemessagemodel.cpp.o
 
 # target to build an object file
 model/offlinemessagemodel.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o
 .PHONY : model/offlinemessagemodel.cpp.o
 
 model/offlinemessagemodel.i: model/offlinemessagemodel.cpp.i
@@ -335,7 +335,7 @@ model/offlinemessagemodel.i: model/offlinemessagemodel.cpp.i
 
 # target to preprocess a source file
 model/offlinemessagemodel.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.i
 .PHONY : model/offlinemessagemodel.cpp.i
 
 model/offlinemessagemodel.s: model/offlinemessagemodel.cpp.s
@@ -343,7 +343,7 @@ model/offlinemessagemodel.s: model/offlinemessagemodel.cpp.s
 
 # target to generate assembly for a file
 model/offlinemessagemodel.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.s
 .PHONY : model/offlinemessagemodel.cpp.s
 
 model/usermodel.o: model/usermodel.cpp.o
@@ -351,7 +351,7 @@ model/usermodel.o: model/usermodel.cpp.o
 
 # target to build an object file
 model/usermodel.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.o
 .PHONY : model/usermodel.cpp.o
 
 model/usermodel.i: model/usermodel.cpp.i
@@ -359,7 +359,7 @@ model/usermodel.i: model/usermodel.cpp.i
 
 # target to preprocess a source file
 model/usermodel.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.i
 .PHONY : model/usermodel.cpp.i
 
 model/usermodel.s: model/usermodel.cpp.s
@@ -367,7 +367,7 @@ model/usermodel.s: model/usermodel.cpp.s
 
 # target to generate assembly for a file
 model/usermodel.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/model/usermodel.cpp.s
 .PHONY : model/usermodel.cpp.s
 
 mymuduo/Acceptor.o: mymuduo/Acceptor.cc.o
@@ -375,7 +375,7 @@ mymuduo/Acceptor.o: mymuduo/Acceptor.cc.o
 
 # target to build an object file
 mymuduo/Acceptor.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.o
 .PHONY : mymuduo/Acceptor.cc.o
 
 mymuduo/Acceptor.i: mymuduo/Acceptor.cc.i
@@ -383,7 +383,7 @@ mymuduo/Acceptor.i: mymuduo/Acceptor.cc.i
 
 # target to preprocess a source file
 mymuduo/Acceptor.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.i
 .PHONY : mymuduo/Acceptor.cc.i
 
 mymuduo/Acceptor.s: mymuduo/Acceptor.cc.s
@@ -391,7 +391,7 @@ mymuduo/Acceptor.s: mymuduo/Acceptor.cc.s
 
 # target to generate assembly for a file
 mymuduo/Acceptor.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.s
 .PHONY : mymuduo/Acceptor.cc.s
 
 mymuduo/Buffer.o: mymuduo/Buffer.cc.o
@@ -399,7 +399,7 @@ mymuduo/Buffer.o: mymuduo/Buffer.cc.o
 
 # target to build an object file
 mymuduo/Buffer.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.o
 .PHONY : mymuduo/Buffer.cc.o
 
 mymuduo/Buffer.i: mymuduo/Buffer.cc.i
@@ -407,7 +407,7 @@ mymuduo/Buffer.i: mymuduo/Buffer.cc.i
 
 # target to preprocess a source file
 mymuduo/Buffer.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.i
 .PHONY : mymuduo/Buffer.cc.i
 
 mymuduo/Buffer.s: mymuduo/Buffer.cc.s
@@ -415,7 +415,7 @@ mymuduo/Buffer.s: mymuduo/Buffer.cc.s
 
 # target to generate assembly for a file
 mymuduo/Buffer.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.s
 .PHONY : mymuduo/Buffer.cc.s
 
 mymuduo/Channel.o: mymuduo/Channel.cc.o
@@ -423,7 +423,7 @@ mymuduo/Channel.o: mymuduo/Channel.cc.o
 
 # target to build an object file
 mymuduo/Channel.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.o
 .PHONY : mymuduo/Channel.cc.o
 
 mymuduo/Channel.i: mymuduo/Channel.cc.i
@@ -431,7 +431,7 @@ mymuduo/Channel.i: mymuduo/Channel.cc.i
 
 # target to preprocess a source file
 mymuduo/Channel.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.i
 .PHONY : mymuduo/Channel.cc.i
 
 mymuduo/Channel.s: mymuduo/Channel.cc.s
@@ -439,7 +439,7 @@ mymuduo/Channel.s: mymuduo/Channel.cc.s
 
 # target to generate assembly for a file
 mymuduo/Channel.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.s
 .PHONY : mymuduo/Channel.cc.s
 
 mymuduo/CurrentThread.o: mymuduo/CurrentThread.cc.o
@@ -447,7 +447,7 @@ mymuduo/CurrentThread.o: mymuduo/CurrentThread.cc.o
 
 # target to build an object file
 mymuduo/CurrentThread.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.o
 .PHONY : mymuduo/CurrentThread.cc.o
 
 mymuduo/CurrentThread.i: mymuduo/CurrentThread.cc.i
@@ -455,7 +455,7 @@ mymuduo/CurrentThread.i: mymuduo/CurrentThread.cc.i
 
 # target to preprocess a source file
 mymuduo/CurrentThread.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.i
 .PHONY : mymuduo/CurrentThread.cc.i
 
 mymuduo/CurrentThread.s: mymuduo/CurrentThread.cc.s
@@ -463,7 +463,7 @@ mymuduo/CurrentThread.s: mymuduo/CurrentThread.cc.s
 
 # target to generate assembly for a file
 mymuduo/CurrentThread.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.s
 .PHONY : mymuduo/CurrentThread.cc.s
 
 mymuduo/DefaultPoller.o: mymuduo/DefaultPoller.cc.o
@@ -471,7 +471,7 @@ mymuduo/DefaultPoller.o: mymuduo/DefaultPoller.cc.o
 
 # target to build an object file
 mymuduo/DefaultPoller.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.o
 .PHONY : mymuduo/DefaultPoller.cc.o
 
 mymuduo/DefaultPoller.i: mymuduo/DefaultPoller.cc.i
@@ -479,7 +479,7 @@ mymuduo/DefaultPoller.i: mymuduo/DefaultPoller.cc.i
 
 # target to preprocess a source file
 mymuduo/DefaultPoller.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.i
 .PHONY : mymuduo/DefaultPoller.cc.i
 
 mymuduo/DefaultPoller.s: mymuduo/DefaultPoller.cc.s
@@ -487,7 +487,7 @@ mymuduo/DefaultPoller.s: mymuduo/DefaultPoller.cc.s
 
 # target to generate assembly for a file
 mymuduo/DefaultPoller.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.s
 .PHONY : mymuduo/DefaultPoller.cc.s
 
 mymuduo/EPollPoller.o: mymuduo/EPollPoller.cc.o
@@ -495,7 +495,7 @@ mymuduo/EPollPoller.o: mymuduo/EPollPoller.cc.o
 
 # target to build an object file
 mymuduo/EPollPoller.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.o
 .PHONY : mymuduo/EPollPoller.cc.o
 
 mymuduo/EPollPoller.i: mymuduo/EPollPoller.cc.i
@@ -503,7 +503,7 @@ mymuduo/EPollPoller.i: mymuduo/EPollPoller.cc.i
 
 # target to preprocess a source file
 mymuduo/EPollPoller.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.i
 .PHONY : mymuduo/EPollPoller.cc.i
 
 mymuduo/EPollPoller.s: mymuduo/EPollPoller.cc.s
@@ -511,7 +511,7 @@ mymuduo/EPollPoller.s: mymuduo/EPollPoller.cc.s
 
 # target to generate assembly for a file
 mymuduo/EPollPoller.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.s
 .PHONY : mymuduo/EPollPoller.cc.s
 
 mymuduo/EventLoop.o: mymuduo/EventLoop.cc.o
@@ -519,7 +519,7 @@ mymuduo/EventLoop.o: mymuduo/EventLoop.cc.o
 
 # target to build an object file
 mymuduo/EventLoop.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.o
 .PHONY : mymuduo/EventLoop.cc.o
 
 mymuduo/EventLoop.i: mymuduo/EventLoop.cc.i
@@ -527,7 +527,7 @@ mymuduo/EventLoop.i: mymuduo/EventLoop.cc.i
 
 # target to preprocess a source file
 mymuduo/EventLoop.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.i
 .PHONY : mymuduo/EventLoop.cc.i
 
 mymuduo/EventLoop.s: mymuduo/EventLoop.cc.s
@@ -535,7 +535,7 @@ mymuduo/EventLoop.s: mymuduo/EventLoop.cc.s
 
 # target to generate assembly for a file
 mymuduo/EventLoop.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.s
 .PHONY : mymuduo/EventLoop.cc.s
 
 mymuduo/EventLoopThread.o: mymuduo/EventLoopThread.cc.o
@@ -543,7 +543,7 @@ mymuduo/EventLoopThread.o: mymuduo/EventLoopThread.cc.o
 
 # target to build an object file
 mymuduo/EventLoopThread.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.o
 .PHONY : mymuduo/EventLoopThread.cc.o
 
 mymuduo/EventLoopThread.i: mymuduo/EventLoopThread.cc.i
@@ -551,7 +551,7 @@ mymuduo/EventLoopThread.i: mymuduo/EventLoopThread.cc.i
 
 # target to preprocess a source file
 mymuduo/EventLoopThread.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.i
 .PHONY : mymuduo/EventLoopThread.cc.i
 
 mymuduo/EventLoopThread.s: mymuduo/EventLoopThread.cc.s
@@ -559,7 +559,7 @@ mymuduo/EventLoopThread.s: mymuduo/EventLoopThread.cc.s
 
 # target to generate assembly for a file
 mymuduo/EventLoopThread.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.s
 .PHONY : mymuduo/EventLoopThread.cc.s
 
 mymuduo/EventLoopThreadPool.o: mymuduo/EventLoopThreadPool.cc.o
@@ -567,7 +567,7 @@ mymuduo/EventLoopThreadPool.o: mymuduo/EventLoopThreadPool.cc.o
 
 # target to build an object file
 mymuduo/EventLoopThreadPool.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.o
 .PHONY : mymuduo/EventLoopThreadPool.cc.o
 
 mymuduo/EventLoopThreadPool.i: mymuduo/EventLoopThreadPool.cc.i
@@ -575,7 +575,7 @@ mymuduo/EventLoopThreadPool.i: mymuduo/EventLoopThreadPool.cc.i
 
 # target to preprocess a source file
 mymuduo/EventLoopThreadPool.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.i
 .PHONY : mymuduo/EventLoopThreadPool.cc.i
 
 mymuduo/EventLoopThreadPool.s: mymuduo/EventLoopThreadPool.cc.s
@@ -583,7 +583,7 @@ mymuduo/EventLoopThreadPool.s: mymuduo/EventLoopThreadPool.cc.s
 
 # target to generate assembly for a file
 mymuduo/EventLoopThreadPool.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.s
 .PHONY : mymuduo/EventLoopThreadPool.cc.s
 
 mymuduo/InetAddress.o: mymuduo/InetAddress.cc.o
@@ -591,7 +591,7 @@ mymuduo/InetAddress.o: mymuduo/InetAddress.cc.o
 
 # target to build an object file
 mymuduo/InetAddress.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.o
 .PHONY : mymuduo/InetAddress.cc.o
 
 mymuduo/InetAddress.i: mymuduo/InetAddress.cc.i
@@ -599,7 +599,7 @@ mymuduo/InetAddress.i: mymuduo/InetAddress.cc.i
 
 # target to preprocess a source file
 mymuduo/InetAddress.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.i
 .PHONY : mymuduo/InetAddress.cc.i
 
 mymuduo/InetAddress.s: mymuduo/InetAddress.cc.s
@@ -607,7 +607,7 @@ mymuduo/InetAddress.s: mymuduo/InetAddress.cc.s
 
 # target to generate assembly for a file
 mymuduo/InetAddress.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.s
 .PHONY : mymuduo/InetAddress.cc.s
 
 mymuduo/Logger.o: mymuduo/Logger.cc.o
@@ -615,7 +615,7 @@ mymuduo/Logger.o: mymuduo/Logger.cc.o
 
 # target to build an object file
 mymuduo/Logger.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.o
 .PHONY : mymuduo/Logger.cc.o
 
 mymuduo/Logger.i: mymuduo/Logger.cc.i
@@ -623,7 +623,7 @@ mymuduo/Logger.i: mymuduo/Logger.cc.i
 
 # target to preprocess a source file
 mymuduo/Logger.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.i
 .PHONY : mymuduo/Logger.cc.i
 
 mymuduo/Logger.s: mymuduo/Logger.cc.s
@@ -631,7 +631,7 @@ mymuduo/Logger.s: mymuduo/Logger.cc.s
 
 # target to generate assembly for a file
 mymuduo/Logger.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.s
 .PHONY : mymuduo/Logger.cc.s
 
 mymuduo/Poller.o: mymuduo/Poller.cc.o
@@ -639,7 +639,7 @@ mymuduo/Poller.o: mymuduo/Poller.cc.o
 
 # target to build an object file
 mymuduo/Poller.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.o
 .PHONY : mymuduo/Poller.cc.o
 
 mymuduo/Poller.i: mymuduo/Poller.cc.i
@@ -647,7 +647,7 @@ mymuduo/Poller.i: mymuduo/Poller.cc.i
 
 # target to preprocess a source file
 mymuduo/Poller.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.i
 .PHONY : mymuduo/Poller.cc.i
 
 mymuduo/Poller.s: mymuduo/Poller.cc.s
@@ -655,7 +655,7 @@ mymuduo/Poller.s: mymuduo/Poller.cc.s
 
 # target to generate assembly for a file
 mymuduo/Poller.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.s
 .PHONY : mymuduo/Poller.cc.s
 
 mymuduo/Socket.o: mymuduo/Socket.cc.o
@@ -663,7 +663,7 @@ mymuduo/Socket.o: mymuduo/Socket.cc.o
 
 # target to build an object file
 mymuduo/Socket.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.o
 .PHONY : mymuduo/Socket.cc.o
 
 mymuduo/Socket.i: mymuduo/Socket.cc.i
@@ -671,7 +671,7 @@ mymuduo/Socket.i: mymuduo/Socket.cc.i
 
 # target to preprocess a source file
 mymuduo/Socket.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.i
 .PHONY : mymuduo/Socket.cc.i
 
 mymuduo/Socket.s: mymuduo/Socket.cc.s
@@ -679,7 +679,7 @@ mymuduo/Socket.s: mymuduo/Socket.cc.s
 
 # target to generate assembly for a file
 mymuduo/Socket.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.s
 .PHONY : mymuduo/Socket.cc.s
 
 mymuduo/TcpConnection.o: mymuduo/TcpConnection.cc.o
@@ -687,7 +687,7 @@ mymuduo/TcpConnection.o: mymuduo/TcpConnection.cc.o
 
 # target to build an object file
 mymuduo/TcpConnection.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.o
 .PHONY : mymuduo/TcpConnection.cc.o
 
 mymuduo/TcpConnection.i: mymuduo/TcpConnection.cc.i
@@ -695,7 +695,7 @@ mymuduo/TcpConnection.i: mymuduo/TcpConnection.cc.i
 
 # target to preprocess a source file
 mymuduo/TcpConnection.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.i
 .PHONY : mymuduo/TcpConnection.cc.i
 
 mymuduo/TcpConnection.s: mymuduo/TcpConnection.cc.s
@@ -703,7 +703,7 @@ mymuduo/TcpConnection.s: mymuduo/TcpConnection.cc.s
 
 # target to generate assembly for a file
 mymuduo/TcpConnection.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.s
 .PHONY : mymuduo/TcpConnection.cc.s
 
 mymuduo/TcpServer.o: mymuduo/TcpServer.cc.o
@@ -711,7 +711,7 @@ mymuduo/TcpServer.o: mymuduo/TcpServer.cc.o
 
 # target to build an object file
 mymuduo/TcpServer.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.o
 .PHONY : mymuduo/TcpServer.cc.o
 
 mymuduo/TcpServer.i: mymuduo/TcpServer.cc.i
@@ -719,7 +719,7 @@ mymuduo/TcpServer.i: mymuduo/TcpServer.cc.i
 
 # target to preprocess a source file
 mymuduo/TcpServer.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.i
 .PHONY : mymuduo/TcpServer.cc.i
 
 mymuduo/TcpServer.s: mymuduo/TcpServer.cc.s
@@ -727,7 +727,7 @@ mymuduo/TcpServer.s: mymuduo/TcpServer.cc.s
 
 # target to generate assembly for a file
 mymuduo/TcpServer.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.s
 .PHONY : mymuduo/TcpServer.cc.s
 
 mymuduo/Thread.o: mymuduo/Thread.cc.o
@@ -735,7 +735,7 @@ mymuduo/Thread.o: mymuduo/Thread.cc.o
 
 # target to build an object file
 mymuduo/Thread.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.o
 .PHONY : mymuduo/Thread.cc.o
 
 mymuduo/Thread.i: mymuduo/Thread.cc.i
@@ -743,7 +743,7 @@ mymuduo/Thread.i: mymuduo/Thread.cc.i
 
 # target to preprocess a source file
 mymuduo/Thread.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.i
 .PHONY : mymuduo/Thread.cc.i
 
 mymuduo/Thread.s: mymuduo/Thread.cc.s
@@ -751,7 +751,7 @@ mymuduo/Thread.s: mymuduo/Thread.cc.s
 
 # target to generate assembly for a file
 mymuduo/Thread.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.s
 .PHONY : mymuduo/Thread.cc.s
 
 mymuduo/Timestamp.o: mymuduo/Timestamp.cc.o
@@ -759,7 +759,7 @@ mymuduo/Timestamp.o: mymuduo/Timestamp.cc.o
 
 # target to build an object file
 mymuduo/Timestamp.cc.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.o
 .PHONY : mymuduo/Timestamp.cc.o
 
 mymuduo/Timestamp.i: mymuduo/Timestamp.cc.i
@@ -767,7 +767,7 @@ mymuduo/Timestamp.i: mymuduo/Timestamp.cc.i
 
 # target to preprocess a source file
 mymuduo/Timestamp.cc.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.i
 .PHONY : mymuduo/Timestamp.cc.i
 
 mymuduo/Timestamp.s: mymuduo/Timestamp.cc.s
@@ -775,7 +775,7 @@ mymuduo/Timestamp.s: mymuduo/Timestamp.cc.s
 
 # target to generate assembly for a file
 mymuduo/Timestamp.cc.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.s
 .PHONY : mymuduo/Timestamp.cc.s
 
 redis/redis.o: redis/redis.cpp.o
@@ -783,7 +783,7 @@ redis/redis.o: redis/redis.cpp.o
 
 # target to build an object file
 redis/redis.cpp.o:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.o
 .PHONY : redis/redis.cpp.o
 
 redis/redis.i: redis/redis.cpp.i
@@ -791,7 +791,7 @@ redis/redis.i: redis/redis.cpp.i
 
 # target to preprocess a source file
 redis/redis.cpp.i:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.i
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.i
 .PHONY : redis/redis.cpp.i
 
 redis/redis.s: redis/redis.cpp.s
@@ -799,7 +799,7 @@ redis/redis.s: redis/redis.cpp.s
 
 # target to generate assembly for a file
 redis/redis.cpp.s:
-	cd /home/djf/sourcecode/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s
+	cd /home/djf/MyChatServer/build && $(MAKE) $(MAKESILENT) -f src/server/CMakeFiles/ChatServer.dir/build.make src/server/CMakeFiles/ChatServer.dir/redis/redis.cpp.s
 .PHONY : redis/redis.cpp.s
 
 # Help Target
@@ -906,6 +906,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/djf/sourcecode/MyChatServer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/djf/MyChatServer/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

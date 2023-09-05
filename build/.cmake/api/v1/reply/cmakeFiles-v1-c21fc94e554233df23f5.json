@@ -712,8 +712,8 @@
 	"kind" : "cmakeFiles",
 	"paths" : 
 	{
-		"build" : "/home/djf/sourcecode/MyChatServer/build",
-		"source" : "/home/djf/sourcecode/MyChatServer"
+		"build" : "/home/djf/MyChatServer/build",
+		"source" : "/home/djf/MyChatServer"
 	},
 	"version" : 
 	{

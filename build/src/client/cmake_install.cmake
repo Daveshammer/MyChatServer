@@ -1,4 +1,4 @@
-# Install script for directory: /home/djf/sourcecode/MyChatServer/src/client
+# Install script for directory: /home/djf/MyChatServer/src/client
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

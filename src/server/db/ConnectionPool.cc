@@ -73,7 +73,7 @@ void ConnectionPool::produceConnection()
     while (true)
     {
         std::unique_lock<std::mutex> lock(mutex_);
-        while (connectionQue_.size() >= maxSize_)
+        while (!connectionQue_.empty())
         {
             cond_.wait(lock);
         }

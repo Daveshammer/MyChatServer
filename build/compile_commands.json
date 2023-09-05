@@ -1,147 +1,147 @@
 [
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/chatserver.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/chatserver.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/chatserver.cpp.o -c /home/djf/MyChatServer/src/server/chatserver.cpp",
+  "file": "/home/djf/MyChatServer/src/server/chatserver.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/chatservice.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/chatservice.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/chatservice.cpp.o -c /home/djf/MyChatServer/src/server/chatservice.cpp",
+  "file": "/home/djf/MyChatServer/src/server/chatservice.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/main.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/main.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/main.cpp.o -c /home/djf/MyChatServer/src/server/main.cpp",
+  "file": "/home/djf/MyChatServer/src/server/main.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/db/ConnectionPool.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/db/ConnectionPool.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/db/ConnectionPool.cc.o -c /home/djf/MyChatServer/src/server/db/ConnectionPool.cc",
+  "file": "/home/djf/MyChatServer/src/server/db/ConnectionPool.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/db/MysqlConn.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/db/MysqlConn.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/db/MysqlConn.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/db/MysqlConn.cc.o -c /home/djf/MyChatServer/src/server/db/MysqlConn.cc",
+  "file": "/home/djf/MyChatServer/src/server/db/MysqlConn.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/db/db.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/db/db.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/db/db.cpp.o -c /home/djf/MyChatServer/src/server/db/db.cpp",
+  "file": "/home/djf/MyChatServer/src/server/db/db.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/model/friendmodel.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/model/friendmodel.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/friendmodel.cpp.o -c /home/djf/MyChatServer/src/server/model/friendmodel.cpp",
+  "file": "/home/djf/MyChatServer/src/server/model/friendmodel.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/model/groupmodel.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/model/groupmodel.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/groupmodel.cpp.o -c /home/djf/MyChatServer/src/server/model/groupmodel.cpp",
+  "file": "/home/djf/MyChatServer/src/server/model/groupmodel.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/model/offlinemessagemodel.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/model/offlinemessagemodel.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/offlinemessagemodel.cpp.o -c /home/djf/MyChatServer/src/server/model/offlinemessagemodel.cpp",
+  "file": "/home/djf/MyChatServer/src/server/model/offlinemessagemodel.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/model/usermodel.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/model/usermodel.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/model/usermodel.cpp.o -c /home/djf/MyChatServer/src/server/model/usermodel.cpp",
+  "file": "/home/djf/MyChatServer/src/server/model/usermodel.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/djf/sourcecode/MyChatServer/src/server/redis/redis.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/redis/redis.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/redis/redis.cpp.o -c /home/djf/MyChatServer/src/server/redis/redis.cpp",
+  "file": "/home/djf/MyChatServer/src/server/redis/redis.cpp"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Acceptor.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Acceptor.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Acceptor.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Acceptor.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Acceptor.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Buffer.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Buffer.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Buffer.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Buffer.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Buffer.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Channel.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Channel.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Channel.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Channel.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Channel.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/CurrentThread.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/CurrentThread.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/CurrentThread.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/CurrentThread.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/CurrentThread.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/DefaultPoller.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/DefaultPoller.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/DefaultPoller.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/DefaultPoller.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/DefaultPoller.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/EPollPoller.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/EPollPoller.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EPollPoller.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/EPollPoller.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/EPollPoller.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/EventLoop.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/EventLoop.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EventLoop.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/EventLoop.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/EventLoop.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/EventLoopThread.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/EventLoopThread.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EventLoopThread.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/EventLoopThread.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/EventLoopThread.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/EventLoopThreadPool.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/EventLoopThreadPool.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/EventLoopThreadPool.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/EventLoopThreadPool.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/EventLoopThreadPool.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/InetAddress.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/InetAddress.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/InetAddress.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/InetAddress.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/InetAddress.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Logger.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Logger.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Logger.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Logger.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Logger.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Poller.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Poller.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Poller.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Poller.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Poller.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Socket.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Socket.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Socket.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Socket.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Socket.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/TcpConnection.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/TcpConnection.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/TcpConnection.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/TcpConnection.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/TcpConnection.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/TcpServer.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/TcpServer.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/TcpServer.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/TcpServer.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/TcpServer.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Thread.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Thread.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Thread.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Thread.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Thread.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/server",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.o -c /home/djf/sourcecode/MyChatServer/src/server/mymuduo/Timestamp.cc",
-  "file": "/home/djf/sourcecode/MyChatServer/src/server/mymuduo/Timestamp.cc"
+  "directory": "/home/djf/MyChatServer/build/src/server",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatServer.dir/mymuduo/Timestamp.cc.o -c /home/djf/MyChatServer/src/server/mymuduo/Timestamp.cc",
+  "file": "/home/djf/MyChatServer/src/server/mymuduo/Timestamp.cc"
 },
 {
-  "directory": "/home/djf/sourcecode/MyChatServer/build/src/client",
-  "command": "/usr/bin/g++  -I/home/djf/sourcecode/MyChatServer/include -I/home/djf/sourcecode/MyChatServer/include/server -I/home/djf/sourcecode/MyChatServer/include/server/db -I/home/djf/sourcecode/MyChatServer/include/server/model -I/home/djf/sourcecode/MyChatServer/include/server/redis -I/home/djf/sourcecode/MyChatServer/include/server/mymuduo -I/home/djf/sourcecode/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/djf/sourcecode/MyChatServer/src/client/main.cpp",
-  "file": "/home/djf/sourcecode/MyChatServer/src/client/main.cpp"
+  "directory": "/home/djf/MyChatServer/build/src/client",
+  "command": "/usr/bin/g++  -I/home/djf/MyChatServer/include -I/home/djf/MyChatServer/include/server -I/home/djf/MyChatServer/include/server/db -I/home/djf/MyChatServer/include/server/model -I/home/djf/MyChatServer/include/server/redis -I/home/djf/MyChatServer/include/server/mymuduo -I/home/djf/MyChatServer/thirdparty -g -g -o CMakeFiles/ChatClient.dir/main.cpp.o -c /home/djf/MyChatServer/src/client/main.cpp",
+  "file": "/home/djf/MyChatServer/src/client/main.cpp"
 }
 ]

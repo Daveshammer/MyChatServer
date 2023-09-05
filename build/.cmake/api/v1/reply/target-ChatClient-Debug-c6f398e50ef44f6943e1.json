@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "/home/djf/sourcecode/MyChatServer/bin/ChatClient"
+			"path" : "/home/djf/MyChatServer/bin/ChatClient"
 		}
 	],
 	"backtrace" : 1,
@@ -96,31 +96,31 @@
 			[
 				{
 					"backtrace" : 4,
-					"path" : "/home/djf/sourcecode/MyChatServer/include"
+					"path" : "/home/djf/MyChatServer/include"
 				},
 				{
 					"backtrace" : 5,
-					"path" : "/home/djf/sourcecode/MyChatServer/include/server"
+					"path" : "/home/djf/MyChatServer/include/server"
 				},
 				{
 					"backtrace" : 6,
-					"path" : "/home/djf/sourcecode/MyChatServer/include/server/db"
+					"path" : "/home/djf/MyChatServer/include/server/db"
 				},
 				{
 					"backtrace" : 7,
-					"path" : "/home/djf/sourcecode/MyChatServer/include/server/model"
+					"path" : "/home/djf/MyChatServer/include/server/model"
 				},
 				{
 					"backtrace" : 8,
-					"path" : "/home/djf/sourcecode/MyChatServer/include/server/redis"
+					"path" : "/home/djf/MyChatServer/include/server/redis"
 				},
 				{
 					"backtrace" : 9,
-					"path" : "/home/djf/sourcecode/MyChatServer/include/server/mymuduo"
+					"path" : "/home/djf/MyChatServer/include/server/mymuduo"
 				},
 				{
 					"backtrace" : 10,
-					"path" : "/home/djf/sourcecode/MyChatServer/thirdparty"
+					"path" : "/home/djf/MyChatServer/thirdparty"
 				}
 			],
 			"language" : "CXX",

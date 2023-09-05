@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/djf/sourcecode/MyChatServer/build"
+			"value" : "/home/djf/MyChatServer/build"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -603,7 +603,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/djf/sourcecode/MyChatServer"
+			"value" : "/home/djf/MyChatServer"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -1139,7 +1139,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/djf/sourcecode/MyChatServer/build"
+			"value" : "/home/djf/MyChatServer/build"
 		},
 		{
 			"name" : "chat_SOURCE_DIR",
@@ -1151,7 +1151,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/djf/sourcecode/MyChatServer"
+			"value" : "/home/djf/MyChatServer"
 		}
 	],
 	"kind" : "cache",
