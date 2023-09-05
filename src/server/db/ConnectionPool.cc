@@ -66,6 +66,7 @@ void ConnectionPool::addConnection()
     conn->connect(user_, passwd_, dbName_, ip_, port_);
     conn->refreshAliveTime(); // 刷新起始的空闲时间点
     connectionQue_.push(conn);
+    connectionCnt_++;
 }
 
 void ConnectionPool::produceConnection()
@@ -73,11 +74,14 @@ void ConnectionPool::produceConnection()
     while (true)
     {
         std::unique_lock<std::mutex> lock(mutex_);
-        while (!connectionQue_.empty())
+        while (!connectionQue_.empty()) // 队列不空，此处生产线程进入等待状态
         {
             cond_.wait(lock);
         }
-        addConnection();
+        if (connectionCnt_ < maxSize_) // 连接数量没有到达上限，继续创建新的连接
+        {
+            addConnection();
+        }
         cond_.notify_all();
     }
 }
@@ -100,7 +104,7 @@ std::shared_ptr<MysqlConn> ConnectionPool::getConnection()
         conn->refreshAliveTime();
         connectionQue_.push(conn); });
     connectionQue_.pop();
-    cond_.notify_all();
+    cond_.notify_all(); // 消费完连接以后，通知生产者线程检查一下，如果队列为空了，赶紧生产连接
     return connptr;
 }
 
@@ -110,12 +114,13 @@ void ConnectionPool::recycleConnection()
     {
         std::this_thread::sleep_for(std::chrono::milliseconds(maxIdleTime_));
         std::unique_lock<std::mutex> lock(mutex_);
-        while (connectionQue_.size() > initSize_)
+        while (connectionCnt_ > initSize_)
         {
             MysqlConn *conn = connectionQue_.front();
             if (conn->getAliveTime() >= maxIdleTime_)
             {
                 connectionQue_.pop();
+                connectionCnt_--;
                 delete conn;
             }
             else

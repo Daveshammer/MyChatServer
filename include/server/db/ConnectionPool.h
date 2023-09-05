@@ -9,6 +9,7 @@ using json = nlohmann::json;
 #include <queue>
 #include <mutex>
 #include <condition_variable>
+#include <atomic>
 
 class ConnectionPool
 {
@@ -37,6 +38,7 @@ private:
     int timeOut_;
 
     std::queue<MysqlConn*> connectionQue_;
+    std::atomic_int connectionCnt_; // 记录连接所创建的connection连接的总数量 
     std::mutex mutex_;
     std::condition_variable cond_;
 };
